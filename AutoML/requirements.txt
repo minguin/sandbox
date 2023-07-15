@@ -1,0 +1,13 @@
+pycaret==3.0.3
+mlflow==2.4.1
+deepchecks==0.17.3
+explainerdashboard==0.4.2.2
+ydata-profiling==4.3.1
+catboost==1.2
+
+streamlit==1.24.0
+pygwalker==0.1.11
+sweetviz==2.1.4
+h2o==3.42.0.1
+autogluon==0.8.2
+# auto-sklearn==0.15.0
