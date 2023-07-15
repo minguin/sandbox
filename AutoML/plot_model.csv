@@ -1,0 +1,58 @@
+Modules,ID,Name
+Classification,pipeline,Schematic drawing of the preprocessing pipeline
+Classification,auc,Area Under the Curve
+Classification,threshold,Discrimination Threshold
+Classification,pr,Precision Recall Curve
+Classification,confusion_matrix,Confusion Matrix
+Classification,error,Class Prediction Error
+Classification,class_report,Classification Report
+Classification,boundary,Decision Boundary
+Classification,rfe,Recursive Feature Selection
+Classification,learning,Learning Curve
+Classification,manifold,Manifold Learning
+Classification,calibration,Calibration Curve
+Classification,vc,Validation Curve
+Classification,dimension,Dimension Learning
+Classification,feature,Feature Importance
+Classification,feature_all,Feature Importance (All)
+Classification,parameter,Model Hyperparameter
+Classification,lift,Lift Curve
+Classification,gain,Gain Chart
+Classification,tree,Decision Tree
+Classification,ks,KS Statistic Plot
+Regression,pipeline,Schematic drawing of the preprocessing pipeline
+Regression,residuals_interactive,Interactive Residual plots
+Regression,residuals,Residuals Plot
+Regression,error,Prediction Error Plot
+Regression,cooks,Cooks Distance Plot
+Regression,rfe,Recursive Feat. Selection
+Regression,learning,Learning Curve
+Regression,vc,Validation Curve
+Regression,manifold,Manifold Learning
+Regression,feature,Feature Importance
+Regression,feature_all,Feature Importance (All)
+Regression,parameter,Model Hyperparameter
+Regression,tree,Decision Tree
+Time Series,ts,Time Series Plot
+Time Series,train_test_split,Train Test Split
+Time Series,cv,Cross Validation
+Time Series,acf,Auto Correlation (ACF)
+Time Series,pacf,Partial Auto Correlation (PACF)
+Time Series,decomp,Classical Decomposition
+Time Series,decomp_stl,STL Decomposition
+Time Series,diagnostics,Diagnostics Plot
+Time Series,diff,Difference Plot
+Time Series,periodogram,Frequency Components (Periodogram)
+Time Series,fft,Frequency Components (FFT)
+Time Series,ccf,Cross Correlation (CCF)
+Time Series,forecast,ÅgOut-of-SampleÅh Forecast Plot
+Time Series,insample,ÅgIn-SampleÅh Forecast Plot
+Time Series,residuals,Residuals Plot
+Clustering,cluster,Cluster PCA Plot (2d)
+Clustering,tsne,Cluster t-SNE (3d)
+Clustering,elbow,Elbow Plot
+Clustering,silhouette,Silhouette Plot
+Clustering,distance,Distance Plot
+Clustering,distribution,Distribution Plot
+Anomaly Detection,tsne,t-SNE (3d) Dimension Plot
+Anomaly Detection,umap,UMAP Dimensionality Plot
