@@ -3,6 +3,10 @@ name: gbizinfo
 on:
     push:
 
+defaults:
+  run:
+    working-directory: gbizinfo
+
 jobs:
     test:
         name: test
