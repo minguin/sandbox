@@ -31,6 +31,6 @@ jobs:
           - name: autoflake!!!
             run: poetry run autoflake -r --in-place --remove-all-unused-imports --ignore-init-module-imports --remove-unused-variables .
           - name: mypy!!!!
-            run: poetry run mypy . --platform linux --config-file mypy.ini
+            run: poetry run mypy . --platform linux
           - name: Run Tests
             run: poetry run pytest
