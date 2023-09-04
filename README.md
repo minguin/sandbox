@@ -30,6 +30,25 @@ Summarize this page as follows.
 - 次に読むべき論文
 
 
+## KeyGraph: Automatic Indexing by Co-occurrence Graph based on Building Construction Metaphor
+- 研究内容
+    - 建築メタファー(土台、屋根、柱)に基づく共起グラフによる文書の自動インデックス作成のための新しいアルゴリズム
+
+- 先行研究との比較
+    - 利点コーパスや自然言語処理ツールなどの外部知識に依存することなく、著者の要点を表すキーワードを抽出できる
+
+- 技術や方法のポイント
+    - ステミング、ストップワードの除去による文章の前処理
+    - 用語の共起グラフを基本概念に対応するクラスタに分割し、複数のクラスタと強い関係を持つ用語をキーワードとして選択
+
+- 検証方法
+    - 人工知能に関する文書コレクションを対象に、提案手法の再現率と精度を従来の2つの手法（TFIDF、NGRAM）と比較し、提案手法が特別な興味や考えを持つユーザに対してより良いパフォーマンスを示すことを示した
+
+- 今後の課題
+    - TFIDFはテキストの構文構造や意味構造を考慮しないため、頻度が低かったり、他と共起していない重要な用語を見落とす可能性がある。また、キーワードの品質に影響を与える可能性のある経験的なパラメータに依存する
+
+- 次に読むべき論文
+
 ## From technology opportunities to ideas generation via cross-cutting patent analysis: Application of generative topographic mapping and link prediction
 https://www.sciencedirect.com/science/article/abs/pii/S0040162523002500
 - 研究内容
