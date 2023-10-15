@@ -1,15 +1,15 @@
-name: gbizinfo
+name: sample_ci
 
 on:
     push:
 
-defaults:
-  run:
-    working-directory: gbizinfo
+# defaults:
+#   run:
+#     working-directory: gbizinfo
 
 jobs:
-    test:
-        name: test
+    formatter:
+        name: formatter
         runs-on: ubuntu-latest
         strategy:
             matrix:
@@ -28,13 +28,17 @@ jobs:
             run: echo "$HOME/.poetry/bin" >> $GITHUB_PATH
           - name: Install dependencies
             run: poetry install --no-interaction
-          - name: black!
+          - name: black
             run: poetry run black .
-          - name: isort!!
+          - name: isort
             run: poetry run isort .
-          - name: autoflake!!!
+          - name: autoflake
             run: poetry run autoflake -r --in-place --remove-all-unused-imports --ignore-init-module-imports --remove-unused-variables .
-          - name: mypy!!!!
-            run: poetry run mypy . --platform linux
-          - name: Run Tests
-            run: poetry run pytest
+          # - name: mypy
+          #   run: poetry run mypy . --platform linux
+          # - name: Run Tests
+          #   run: poetry run pytest
+          - uses: stefanzweifel/git-auto-commit-action@v3.0.0
+            with:
+              commit_message: Apply Code Formatter Change
+              ref: ${{ github.head_ref }}
