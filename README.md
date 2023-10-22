@@ -1,5 +1,79 @@
 # README
-## CIテスト
+## Recsys 2023 論文読み会
+- オープニング
+    - Wantedlyの相互推薦事例の簡単な紹介
+
+- CONSEQUENCES '23ワークショップ開催に至る経緯・裏側		齋藤 優太(Cornell/半熟仮想)
+    - バンディット/強化学習と因果/反実仮想推論の活用に焦点を当てたワークショップ
+    - CAのブログにまとまっている
+        - https://developers.cyberagent.co.jp/blog/archives/44175/
+
+- 全体概要（基調講演・ワークショップ・チュートリアル）		@shima_shima
+    - SubmissionとAcceptのワードクラウド比較
+        - Submission：Bias,Sequential,Graph,Fair
+        - Accept：LLM,Sequential,Evaluate,Fair,Framework（Graphは小さい
+    - 話題のLLMが通ってる、推薦の評価の観点も多い、フレームワークの構築も偉い、Graphは小さくなっている（通すのが難しくなっている）、出尽くしているのかも。
+    - keynote1：KDDと一緒、LLMを使う上での注意点。日本語、韓国語は英語に翻訳して、というのは精度悪めになる傾向（言語間の類似性が悪さをする
+    - keynote3：レコメンドでのフィードバックの時間差、生存分析の考え方の適用、分布が変わってきたときの対応（https://ibisforest.org/index.php?%E5%85%B1%E5%A4%89%E9%87%8F%E3%82%B7%E3%83%95%E3%83%88
+
+- Tutorial on Large Language Models for Recommendation		佐藤 政寛
+    - Transformerベースのアーキテクチャで、大量の自然言語データを用いて、学習したモデルを、推薦タスクに活用
+    - 活用パターン
+    1. テキスト特徴量のエンコーダーとして使う
+    2. ユーザーやアイテムの補助情報を生成させる
+    3. LLMが直接推薦する
+        - 推薦スコアを予測
+        - preferenceを出力
+        - アイテムのIDなど生成させる
+            - インデックスどうする？（商品IDそのまま、ランダム、商品名でトークン分割）
+            - 商品間の類似性をいずれも満たせない
+            - それらに対する2つのインデックス改善
+                1. ユーザーのシーケンス内で順にインデックス付ける（共起しているものは近いインデックスになりやすい
+                2. 共起関係やアイテムカテゴリで階層クラスタリング、クラスタ番号を繋げたものをIDにする
+    - LLMのチューニングなし、協調フィルタリング的な情報も無しだと性能が限定的（zero-shot/few-shot）。その他であれば比較的よい性能が報告されている
+
+- Fast and Examination-agnostic Reciprocal Recommendation in Matching Markets		冨田 燿志(サイバーエージェント AI Lab)
+    - TUマッチングモデル（労働や結婚で使われる経済モデル）を推薦に活用する方法を提案。マッチ数で改善することをシミュレーション、実データで検証
+    - TUマッチングモデルを用いることで需給バランスの取れた推薦ができる、というのが基本アイデア（効用や企業＆応募者間の金銭的な移転の効果を加味する
+    - 既存手法
+        - ナイーブ法：求職者が興味を持つ選考スコアの高い企業を上から推薦
+        - レシプロカル法（相互）：求職者、企業の両方のスコアを加味して推薦（スコアの掛け算など）
+        - SW（近似社会厚生）法(Su et al. 22)：全体の総マッチ数の期待値をSWとして、下限の近似関数を与えて、制約付き凸最適化を行うことで最大化を目指す。一方で候補者＆企業数の数が増えてしまうと計算量的に現実的でなくなる
+    - 本提案手法は数万×数万程度であればギリギリ耐えうる、数十万となると厳しい
+
+- Layout Optimizer for Personalized Home Screen based on Contextual Multi-Armed Bandit in C2C Marketplace		紫藤 佑介(メルカリ) 
+    - 推薦アイテムでなく、コンポーネントの最適化（ホーム画面における、商品推薦、キャンペーン、ショートカット（機能へのリンク）、など）をContextual MABで解く
+    - メルカリアプリ上でもABテストで実験
+    - コンポーネントの相互作用の考慮がFuture Work 
+
+- Augmented Negative Sampling for Collaborative Filtering		林 悠大(ウォンテッドリー)
+    - ネガティブサンプリングは正例に近いものをサンプルするが、そうすると正例に遠いものの情報が加味されない問題に着目
+    - 遠いサンプルもAugmentationによって正例に近づけて使う
+    - 負例をイージーファクター（正例に近い部分）とハードファクターに分離、このプロセスのため、学習の初期はあまり進まない場合も（論文でも30エポックくらいまでは精度変化せず）
+    
+- Extended Travel Itinerary Datasets Towards Reproducibility		大滝 啓介(豊田中央研究所)
+    - 旅程推薦の論文実証、日本のベンチマークデータセット補強（POI）、新しいデータに対するベースラインの再現実装
+
+- gSASRec: Reducing Overconfidence in Sequential Recommendation Trained with Negative Sampling		松村 優也(LayerX)
+    - RecSys2023のBest Paper Awards
+    - 系列推薦におけるネガティブサンプリング（NS）に生じる問題（Overconfidence）を解決するため、gBCE Loss並びにそれを利用したgSASRecを提案
+    - Overconfidence：正例の割合が実際より大きくなる、アイテムが関連する確率を過剰に高く推定する傾向
+        - SASRecは上位25件のアイテムの予測確率がほぼ1、BCE Lossを利用し独立で推計されるため。推定値が1に近い場合も損失が-∞に発散、学習がうまく行かないのでは
+        - BERT4RecはNSせずSoftmax Lossを利用、予測確率の合計は1になる
+        - 何が問題？：ランキング自体は重要でないが、損失関数においては確率の推定値を利用するためそこで問題：ほぼ1に近い値になると差がなくなってしまう
+    - gSASRec
+        - NSしつつOverconfidenceを緩和させたい
+        - gBCEを損失関数に利用。BCEとの違いは正例に対してσがβ乗されている
+        - 1つの正例に対してk個負例をとる（SASRecは1:1
+        - NSの割合αとすると、βをαに設定すればOverconfidenceが緩和
+    - SASRecとBERT4Recの差：モデルアーキテクチャと今まで言われてきたが、NSの条件を揃えるとほぼ同程度のパフォーマンスに
+    - パフォーマンスもNSの割合αが大きいほど、βがαに近いほど、性能が向上する傾向
+
+- Interface Design to Mitigate Inflation in Recommender Systems		奥 健太(龍谷大)
+    - 評価値インフレーション：人気あるアイテムは、ますます高評価が集まる傾向
+    - インターフェースデザインで解決できないか？
+        - Piki Music（実際の音楽推薦モバイルアプリ）を元に実験
+        - 結局評価値インフレーションが解決するか？はこの論文では言及されず（今後の課題？）
 
 ## テンプレート
 ## プロンプト
