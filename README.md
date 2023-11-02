@@ -1,80 +1,4 @@
 # README
-## Recsys 2023 論文読み会
-- オープニング
-    - Wantedlyの相互推薦事例の簡単な紹介
-
-- CONSEQUENCES '23ワークショップ開催に至る経緯・裏側		齋藤 優太(Cornell/半熟仮想)
-    - バンディット/強化学習と因果/反実仮想推論の活用に焦点を当てたワークショップ
-    - CAのブログにまとまっている
-        - https://developers.cyberagent.co.jp/blog/archives/44175/
-
-- 全体概要（基調講演・ワークショップ・チュートリアル）		@shima_shima
-    - SubmissionとAcceptのワードクラウド比較
-        - Submission：Bias,Sequential,Graph,Fair
-        - Accept：LLM,Sequential,Evaluate,Fair,Framework（Graphは小さい
-    - 話題のLLMが通ってる、推薦の評価の観点も多い、フレームワークの構築も偉い、Graphは小さくなっている（通すのが難しくなっている）、出尽くしているのかも。
-    - keynote1：KDDと一緒、LLMを使う上での注意点。日本語、韓国語は英語に翻訳して、というのは精度悪めになる傾向（言語間の類似性が悪さをする
-    - keynote3：レコメンドでのフィードバックの時間差、生存分析の考え方の適用、分布が変わってきたときの対応（https://ibisforest.org/index.php?%E5%85%B1%E5%A4%89%E9%87%8F%E3%82%B7%E3%83%95%E3%83%88
-
-- Tutorial on Large Language Models for Recommendation		佐藤 政寛
-    - Transformerベースのアーキテクチャで、大量の自然言語データを用いて、学習したモデルを、推薦タスクに活用
-    - 活用パターン
-    1. テキスト特徴量のエンコーダーとして使う
-    2. ユーザーやアイテムの補助情報を生成させる
-    3. LLMが直接推薦する
-        - 推薦スコアを予測
-        - preferenceを出力
-        - アイテムのIDなど生成させる
-            - インデックスどうする？（商品IDそのまま、ランダム、商品名でトークン分割）
-            - 商品間の類似性をいずれも満たせない
-            - それらに対する2つのインデックス改善
-                1. ユーザーのシーケンス内で順にインデックス付ける（共起しているものは近いインデックスになりやすい
-                2. 共起関係やアイテムカテゴリで階層クラスタリング、クラスタ番号を繋げたものをIDにする
-    - LLMのチューニングなし、協調フィルタリング的な情報も無しだと性能が限定的（zero-shot/few-shot）。その他であれば比較的よい性能が報告されている
-
-- Fast and Examination-agnostic Reciprocal Recommendation in Matching Markets		冨田 燿志(サイバーエージェント AI Lab)
-    - TUマッチングモデル（労働や結婚で使われる経済モデル）を推薦に活用する方法を提案。マッチ数で改善することをシミュレーション、実データで検証
-    - TUマッチングモデルを用いることで需給バランスの取れた推薦ができる、というのが基本アイデア（効用や企業＆応募者間の金銭的な移転の効果を加味する
-    - 既存手法
-        - ナイーブ法：求職者が興味を持つ選考スコアの高い企業を上から推薦
-        - レシプロカル法（相互）：求職者、企業の両方のスコアを加味して推薦（スコアの掛け算など）
-        - SW（近似社会厚生）法(Su et al. 22)：全体の総マッチ数の期待値をSWとして、下限の近似関数を与えて、制約付き凸最適化を行うことで最大化を目指す。一方で候補者＆企業数の数が増えてしまうと計算量的に現実的でなくなる
-    - 本提案手法は数万×数万程度であればギリギリ耐えうる、数十万となると厳しい
-
-- Layout Optimizer for Personalized Home Screen based on Contextual Multi-Armed Bandit in C2C Marketplace		紫藤 佑介(メルカリ) 
-    - 推薦アイテムでなく、コンポーネントの最適化（ホーム画面における、商品推薦、キャンペーン、ショートカット（機能へのリンク）、など）をContextual MABで解く
-    - メルカリアプリ上でもABテストで実験
-    - コンポーネントの相互作用の考慮がFuture Work 
-
-- Augmented Negative Sampling for Collaborative Filtering		林 悠大(ウォンテッドリー)
-    - ネガティブサンプリングは正例に近いものをサンプルするが、そうすると正例に遠いものの情報が加味されない問題に着目
-    - 遠いサンプルもAugmentationによって正例に近づけて使う
-    - 負例をイージーファクター（正例に近い部分）とハードファクターに分離、このプロセスのため、学習の初期はあまり進まない場合も（論文でも30エポックくらいまでは精度変化せず）
-    
-- Extended Travel Itinerary Datasets Towards Reproducibility		大滝 啓介(豊田中央研究所)
-    - 旅程推薦の論文実証、日本のベンチマークデータセット補強（POI）、新しいデータに対するベースラインの再現実装
-
-- gSASRec: Reducing Overconfidence in Sequential Recommendation Trained with Negative Sampling		松村 優也(LayerX)
-    - RecSys2023のBest Paper Awards
-    - 系列推薦におけるネガティブサンプリング（NS）に生じる問題（Overconfidence）を解決するため、gBCE Loss並びにそれを利用したgSASRecを提案
-    - Overconfidence：正例の割合が実際より大きくなる、アイテムが関連する確率を過剰に高く推定する傾向
-        - SASRecは上位25件のアイテムの予測確率がほぼ1、BCE Lossを利用し独立で推計されるため。推定値が1に近い場合も損失が-∞に発散、学習がうまく行かないのでは
-        - BERT4RecはNSせずSoftmax Lossを利用、予測確率の合計は1になる
-        - 何が問題？：ランキング自体は重要でないが、損失関数においては確率の推定値を利用するためそこで問題：ほぼ1に近い値になると差がなくなってしまう
-    - gSASRec
-        - NSしつつOverconfidenceを緩和させたい
-        - gBCEを損失関数に利用。BCEとの違いは正例に対してσがβ乗されている
-        - 1つの正例に対してk個負例をとる（SASRecは1:1
-        - NSの割合αとすると、βをαに設定すればOverconfidenceが緩和
-    - SASRecとBERT4Recの差：モデルアーキテクチャと今まで言われてきたが、NSの条件を揃えるとほぼ同程度のパフォーマンスに
-    - パフォーマンスもNSの割合αが大きいほど、βがαに近いほど、性能が向上する傾向
-
-- Interface Design to Mitigate Inflation in Recommender Systems		奥 健太(龍谷大)
-    - 評価値インフレーション：人気あるアイテムは、ますます高評価が集まる傾向
-    - インターフェースデザインで解決できないか？
-        - Piki Music（実際の音楽推薦モバイルアプリ）を元に実験
-        - 結局評価値インフレーションが解決するか？はこの論文では言及されず（今後の課題？）
-
 ## テンプレート
 ## プロンプト
 Summarize this page as follows.
@@ -91,8 +15,8 @@ Summarize this page as follows.
 - What paper should I read next?
 
 このページを要約してください。
-## Title
 
+## Title
 - 研究内容
 
 - 先行研究との比較
@@ -105,6 +29,150 @@ Summarize this page as follows.
 
 - 次に読むべき論文
 
+## Deep Learning in Agriculture: A Survey
+- 研究内容
+  - 精度指標についても整理（P17。物体検出、画像分類、収量予測
+  - P37からのAppendixが充実してる
+    - P37~38：農業におけるコンピュータビジョンの応用とよく使われる技術
+    - P40~：農業における深層学習の応用（既存研究のサマリー
+    - P53：農業に関連する入手可能なデータセット
+
+- 先行研究との比較
+
+- 技術や方法のポイント
+
+- 検証方法
+
+- 今後の課題
+
+- 次に読むべき論文
+## A Survey on Crop Yield Prediction using Machine Learning
+- 研究内容
+  - ちょっとよく分からず、、、
+  - [9] Tomato 
+
+- 先行研究との比較
+
+- 技術や方法のポイント
+
+- 検証方法
+
+- 今後の課題
+
+- 次に読むべき論文
+## Crop yield prediction using machine learning: A systematic literature review
+- 研究内容
+  - 予測の際の説明変数についてもリサーチ、最も利用されている特徴は、温度、降雨量、土壌成分など。
+  - アルゴリズムはNNがTop次いで線形回帰、ランダムフォレスト、SVM、GBDT（線形回帰はベースラインの位置づけで比較の意味で用いられているに過ぎない）
+  - 評価指標Top3はRMSE,R2,MAE
+  - NNアルゴリズムは、CNN,LSTM,DNN
+
+- 先行研究との比較
+
+- 技術や方法のポイント
+
+- 検証方法
+
+- 今後の課題
+
+- 次に読むべき論文
+
+## A Survey on Deep Learning Based Crop Yield Prediction
+- 研究内容
+  - 作物収量予測のための特徴量の分類はよくまとまっている。気象、土壌、水、衛星・航空データ、栄養素、病害、収量データなど、6つのカテゴリーに分類（P581
+  - それぞれの先行研究がどのカテゴリーに着目して収量予測しているか整理（P582~583
+  - 小麦、トウモロコシ、大豆、水稲、トマトの順で多い
+  - 衛星データ、気象データの順で多い
+  - Cho et al. (2021) used an attention-based LSTM network to estimate tomato yields using environmental variables.
+  - Chen et al. (2019) designed a system that automatically detects strawberry flowers to predict yield using the Faster R-CNN DL algorithm. Faster R-CNN effectively handles the degradation problem using a deep residual learning framework. The model gives accurate counts of strawberry flowers and forecasts future yields.
+  - 上のに加えてAlibabaei et al. (2021) Bidirectional LSTM
+  - 作物収量予測に使用される様々な深層学習アルゴリズム、作物利用、評価指標の概要などもまとまっている
+
+- 先行研究との比較
+
+- 技術や方法のポイント
+
+- 検証方法
+
+- 今後の課題
+
+- 次に読むべき論文
+
+## Machine learning in agriculture domain:A state-of-art survey
+- 研究内容
+  - 収穫だけでなく収穫前後にもフォーカス（農薬の使用、剪定、土地準備、種子栽培、作物維持管理、手配）。各フェーズでの論点も整理（P2
+  - 収穫前は、土壌、種子、農薬散布と病気検出
+  - 収穫では、農作物の成熟分類、航空写真からの分析、自動収穫のための植物体検出、ロボットアーム
+  - 収穫後を一番重要と位置づけており、農作物の賞味期限、収穫後の等級付け、輸送
+  - 多くの研究者が、データの不足、必要なフォーマットのデータの入手の悪さ、データの質の低さ、データには余計な機能が含まれる可能性があるなど、データに関する課題に直面
+  - Hua, et al. [40] presented a detail survey on automated fruit harvest- ing systems for sweet pepper, tomato, apple and kiwifruit as an example to demonstrate the recent advances in intelligent automatic harvesting robots in horticulture.
+
+- 先行研究との比較
+
+- 技術や方法のポイント
+
+- 検証方法
+
+- 今後の課題
+
+- 次に読むべき論文
+
+## Artificial Intelligence in Agriculture: Benefits, Challenges, and Trends
+- 研究内容
+  - 906本の研究を17本に絞り込み。その抽出ロジックなど前半説明
+  - 品質評価で最高得点を獲得した論文（P5,6
+  - 影響力がある国ランクは、オランダ、インド、ギリシャ、中国、
+  - ジャーナルランクは、Computers and Electronics in Agriculture, Agricultural Systems, Sensors
+  - 研究推進機関ランクは、フロリダ大学、ワーヘニンゲン大学、中国農業大学
+  - ロボティクスやデジタルツイン、IoTやクラウドコンピューティングなどの領域もサーベイ（P11
+  - [5],[23]が収量予測
+
+- 先行研究との比較
+
+- 技術や方法のポイント
+
+- 検証方法
+
+- 今後の課題
+
+- 次に読むべき論文
+
+## A Survey on Deep Learning and Its Impact on Agriculture: Challenges and Opportunities
+- 研究内容
+  - 2016年から2022年の間に発表された研究のレビュー。果実の計数、水の管理、作物管理、土壌管理、雑草の検出、種子の分類、収量予測、病気の検出、収穫など
+  - 果物を数えるための様々なDL手法のまとめあり。Faster R-CNN,YOLO,CNNなど(P7
+  - 農業領域のデータは不完全、ノイズ、破損が多いため、欠損や不完全なデータを扱うことができる手法が必要
+  - [66]トマトの病害分類
+
+- 先行研究との比較
+
+- 技術や方法のポイント
+
+- 検証方法
+
+- 今後の課題
+
+- 次に読むべき論文
+  - 
+## A Survey of Deep Learning in Agriculture: Techniques and Their Applications
+- 研究内容
+  - 農業領域に深層学習技術を適用した、過去5年の32の研究貢献について調査
+  - 他のレビュー論文の列挙（P1017
+  - 前半はDNNの基礎説明。農業関連DNNは植物病気の検出、画像分類、収量予測など。動物領域や土地関連（土壌）もあり
+  - 論文ごとのバックボーン調査。CNN,ResNet,GG,Inceptionが多い
+  - [47] T. T. Tran, J. W. Choi, T. T. H. Le, and J. W. Kim, “A comparative study of deep CNN in forecasting and classifying the macronutrient deficiencies on development of tomato plant,” Applied Sciences, vol. 9, no. 8, article no. 1601, 2019. 
+  - [48]トマトの分類と栄養不足の予測
+
+
+- 先行研究との比較
+
+- 技術や方法のポイント
+
+- 検証方法
+
+- 今後の課題
+
+- 次に読むべき論文
 
 ## KeyGraph: Automatic Indexing by Co-occurrence Graph based on Building Construction Metaphor
 - 研究内容
