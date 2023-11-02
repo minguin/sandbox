@@ -6,8 +6,6 @@ import h2o
 import mlflow
 import pandas as pd
 import pygwalker as pyg
-import streamlit as st
-import streamlit.components.v1 as components
 import sweetviz as sv
 from autogluon.multimodal import MultiModalPredictor
 from autogluon.tabular import TabularDataset, TabularPredictor
@@ -18,6 +16,9 @@ from pycaret.datasets import get_data
 from pycaret.regression import RegressionExperiment
 from pycaret.time_series import TSForecastingExperiment
 from sklearn.model_selection import train_test_split
+
+import streamlit as st
+import streamlit.components.v1 as components
 
 
 # %%
