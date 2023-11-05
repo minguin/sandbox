@@ -7,7 +7,7 @@
 
 import os
 import time
-from datetime import datetime, timezone
+from datetime import datetime
 
 import arxiv
 import numpy as np
@@ -118,18 +118,19 @@ payload = {
     ],
 }
 
+
 # TODO:Notionへのpostとoutputの出力が混ざっているので分けたい
 def create_notion_page(result, summary, response_semanticscholar):
     output = []
     # from Semantic Scholar Academic Graph API
-    payload["properties"]["Title"]["title"][0]["text"]["content"] = result['title']
-    output.append(result['title'])
-    payload["properties"]["URL"]["url"] = result['url']
-    output.append(result['url'])
-    payload["children"][1]["paragraph"]["rich_text"][0]["text"][
-        "content"
-    ] = result['abstract']
-    output.append(result['abstract'])
+    payload["properties"]["Title"]["title"][0]["text"]["content"] = result["title"]
+    output.append(result["title"])
+    payload["properties"]["URL"]["url"] = result["url"]
+    output.append(result["url"])
+    payload["children"][1]["paragraph"]["rich_text"][0]["text"]["content"] = result[
+        "abstract"
+    ]
+    output.append(result["abstract"])
     payload["properties"]["Date"]["date"]["start"] = result["publicationDate"]
     output.append(result["publicationDate"])
 
@@ -206,12 +207,13 @@ def main():
         """
         )
 
-
     with col2:
         Semantic_Scholar_query = st.text_input(
             "Semantic Scholarの検索クエリを入力", "reciprocal recommend"
         )
-        SEMANTIC_SCHOLAR_NUM_PAPERS = st.number_input("Semantic Scholarで検索する論文数を入力", value=100)
+        SEMANTIC_SCHOLAR_NUM_PAPERS = st.number_input(
+            "Semantic Scholarで検索する論文数を入力", value=100
+        )
 
         st.code(
             """
@@ -241,12 +243,14 @@ def main():
         for result in search.results():
             results.append(result)
             arxiv_list.append("ARXIV:" + result.entry_id.split("/")[-1].split("v")[0])
-            
+
         # to Semantic Scholar Academic Graph API
         try:
             response_semanticscholar = requests.post(
                 "https://api.semanticscholar.org/graph/v1/paper/batch",
-                params={"fields": "citationCount,influentialCitationCount,tldr,publicationDate,url,title,abstract"},
+                params={
+                    "fields": "citationCount,influentialCitationCount,tldr,publicationDate,url,title,abstract"
+                },
                 json={"ids": arxiv_list},
             )
             response_semanticscholar = response_semanticscholar.json()
@@ -255,19 +259,21 @@ def main():
 
         try:
             get_semanticscholar = requests.get(
-                'https://api.semanticscholar.org/graph/v1/paper/search',
+                "https://api.semanticscholar.org/graph/v1/paper/search",
                 params={
-                    'query': Semantic_Scholar_query,
-                    'fields': 'citationCount,influentialCitationCount,tldr,publicationDate,url,title,abstract',
-                    'limit': SEMANTIC_SCHOLAR_NUM_PAPERS,
-                    },
+                    "query": Semantic_Scholar_query,
+                    "fields": "citationCount,influentialCitationCount,tldr,publicationDate,url,title,abstract",
+                    "limit": SEMANTIC_SCHOLAR_NUM_PAPERS,
+                },
             )
-            get_semanticscholar = get_semanticscholar.json()['data']
+            get_semanticscholar = get_semanticscholar.json()["data"]
             response_semanticscholar.extend(get_semanticscholar)
         except Exception as e:
             st.write(e)
 
-        response_semanticscholar = list({d["paperId"]: d for d in response_semanticscholar}.values())
+        response_semanticscholar = list(
+            {d["paperId"]: d for d in response_semanticscholar}.values()
+        )
 
         # 並び替え
         order_list = []
@@ -277,7 +283,11 @@ def main():
             else:
                 # 日数あたりの引用回数
                 order_list.append(
-                    -s["citationCount"] / ((now - datetime.strptime(s["publicationDate"], '%Y-%m-%d')).days + 1)
+                    -s["citationCount"]
+                    / (
+                        (now - datetime.strptime(s["publicationDate"], "%Y-%m-%d")).days
+                        + 1
+                    )
                 )
         order_list = rankdata(order_list, method="ordinal") - 1
         order_list = sorted(range(len(order_list)), key=lambda k: order_list[k])
