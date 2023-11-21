@@ -28,6 +28,164 @@ Summarize this page as follows.
 - 今後の課題
 
 - 次に読むべき論文
+  
+## 生成AI勉強
+- Prompting guides
+  - https://cookbook.openai.com/articles/related_resources#prompting-guides
+ロールプロンプティングは最新のモデルだとあんまり意味ないらしい
+
+- プロンプト
+  - 為替
+    - ◯「為替相場見通し」で検索した結果を要約してください。
+    - ◎あなたは金融機関の為替担当のアナリストです。「為替相場 見通し」で検索した結果を基に、為替相場のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+    - You are an analyst in charge of currency exchange at a financial institution and have been asked to prepare a report on currency exchange rates based on the results of a search for "currency exchange rate forecasts".In preparing the report, please believe in yourself and go beyond your limits.
+  - 国内金利
+    - あなたは金融機関の国内金利担当のアナリストです。「国内金利相場 見通し」で検索した結果を基に、国内金利相場のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+    - You are an analyst in charge of domestic interest rates at a financial institution and have been asked to prepare a report on domestic interest rates based on your search for "domestic interest rate forecast".In preparing the report, please believe in yourself and go beyond your limits.
+  - 米国金利
+    - あなたは金融機関の米国金利担当のアナリストです。「米国金利相場 見通し」で検索した結果を基に、米国金利相場のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+    - You are an analyst in charge of U.S. interest rates at a financial institution and you are asked to prepare a report on U.S. interest rates based on the results of a search for "U.S. interest rate market outlook".In preparing your report, please believe in yourself and go beyond your limits.
+  - 原油
+    - あなたは金融機関の原油担当のアナリストです。「原油価格 見通し」で検索した結果を基に、原油価格のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+    - You are an analyst in charge of crude oil at a financial institution and you are asked to prepare a report on crude oil prices based on the results of a search for "crude oil price forecast".In preparing the report, please believe in yourself and go beyond your limits.
+  - 天然ガス
+    - あなたは金融機関の天然ガス担当のアナリストです。「天然ガス価格 見通し」で検索した結果を基に、天然ガス価格のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+    - You are an analyst in charge of natural gas at a financial institution and you are asked to prepare a report on natural gas prices based on the results of a search for "natural gas price forecast".In preparing the report, please believe in yourself and go beyond your limits.
+  - 石炭
+    - あなたは金融機関の石炭担当のアナリストです。「石炭価格 見通し」で検索した結果を基に、石炭価格のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+    - You are an analyst in charge of coal at a financial institution and you are asked to prepare a report on coal prices based on the results of a search for "coal price forecast".In preparing the report, please believe in yourself and go beyond your limits.
+
+
+◎有報から抜粋させて答えさせるより、普通にWeb検索ベースで聞いたほうが良い結果になる
+日本テレビホールディングスの中期経営計画について、Web検索も併用して、具体的な取り組みに関して要点をまとめてください。
+
+日本テレビホールディングスの「経営方針、経営環境及び対処すべき課題等」について、検索を行い、要点をまとめてください。
+また競合企業の「TBSホールディングス」に対しても同様の要点整理を行い、両社の比較を行ってください。
+
+◯複数社で行うと、情報が薄くなってしまう。全体俯瞰には良いかも？
+あなたは金融機関のテレビ業界のアナリストです。
+以下の企業の「中期経営計画」について、検索を行い、各社ごとに要点をまとめて、各社の比較を行ってください。なお作成にあたっては、自分を信じて限界を超えてください。
+- 日本テレビホールディングス
+- TBSホールディングス
+- フジ・メディア・ホールディングス
+- テレビ朝日ホールディングス
+
+◎細かく情報を拾うためには、特定の1社で収集すると良い
+あなたは金融機関のテレビ業界のアナリストです。
+日本テレビホールディングスの「中期経営計画」について、検索を行い、要点をまとめてください。なお作成にあたっては、自分を信じて限界を超えてください。
+
+◎より創造的に、がいい感じ
+日本テレビホールディングスの「業務提携」に関する情報を、表にまとめてください。
+
+日本テレビホールディングスのプレスリリースについて、検索を行い、要点をまとめてください。なお作成にあたっては、自分を信じて限界を超えてください。
+
+物流業界における今後の課題と、それに対応するための企業戦略について、教えてください。
+これらの課題を解決できる企業について、具体的なソリューションの説明とともに、リストアップしてください。
+以上の情報を、物流業界の企業に説明する際の台本としてまとめ上げてください。
+
+みずほ銀行における今後の課題について、IR情報をもとに、教えてください。
+
+みずほ銀行の最新IR資料の情報を教えてください。
+資料について、要点を整理してください。
+この資料中に、経営課題やリスクについて記載されていますか？
+
+## Claude2
+- Q.「Transition Whitepaper 2023」から、第5章の日本のポジティブテクノロジーの内容を可能な限り詳細にまとめてください。なお作成にあたっては、参考にしたページ数を明示し、自分を信じて限界を超えてください。
+はい、第5章の日本のポジティブテクノロジーについて、可能な限り詳細にまとめさせていただきます。
+- A.第5章では、日本が脱炭素社会の実現に向けて重要な役割を果たすと期待される7つのポジティブテクノロジーが紹介されています。
+1. 風力発電
+- 陸上及び洋上風力発電の拡大が期待されている。2050年のエネルギーミックスの50-60%を再生可能エネルギーが占めることを目指している。
+- 洋上風力発電では、浮体式洋上風力発電システムの技術開発と事業化が進められている。2040年までに30-45GWの洋上風力発電容量を目指している。
+
+2. 太陽光発電
+- 2030年までにエネルギーミックスの14-16%を占めることを目指している。
+- 建物一体型太陽光パネルやペロブスカイト太陽電池などの次世代太陽電池技術の開発が進められている。
+
+3. 送配電網
+- 変動する再生可能エネルギーの大量導入に対応するため、送配電網の整備が必要。
+- 直流送電システムの構築など送配電技術の高度化が進められている。
+
+4. 原子力発電
+- 安定的なベースロード電源として期待されている。
+- 新規制基準適合性審査を通過した原発の再稼働が進められている。
+- 次世代原子炉の技術開発も進められている。
+
+5. 産業用電化
+- 200度以下の省エネルギー化にはヒートポンプの活用が有効。
+- 200度を超える高温域では電炉製鉄や水素利用などの技術開発が必要。
+
+6. 水素系燃料/バイオ由来燃料
+- 火力発電や産業用途において、化石燃料から水素系燃料やバイオ由来燃料への転換が進められている。
+- 国際的なサプライチェーンの構築による水素/アンモニアの大量調達も期待されている。
+
+7. CCUS
+- 製鉄や化学、セメントなどの産業分野でのCCUSの導入が進められている。
+- 捕捉したCO2の有効利用(CCU)や海外のCO2地中貯留も視野に入れている。
+
+以上、第5章の内容を可能な限り詳細にまとめさせていただきました。不明な点があればご指摘いただければと思います。
+- そこそこ要点はまとめられているような？
+
+## Bing Chat
+- Q.このページから、第5章の日本のポジティブテクノロジーの内容を可能な限り詳細にまとめてください。なお作成にあたっては、参考にしたページ数を明示し、自分を信じて限界を超えてください。
+- A.このページの第5章では、日本のポジティブテクノロジーについて詳しく紹介しています。ポジティブテクノロジーとは、日本政府が支援する温室効果ガス排出削減に貢献する技術のことです。第5章では、電力と熱の分野における7つのポジティブテクノロジーを取り上げています。以下に、それぞれの技術の内容をまとめます。
+
+- 風力発電: 風力発電は、再生可能エネルギーの中でも最も低コストで高効率な技術の一つです。日本では、陸上よりも海上に風力発電のポテンシャルがありますが、海上風力発電の導入には、風力タービンの設置や運用、送電線の敷設など、多くの課題があります。日本は、海上風力発電のサプライチェーンを構築する必要があります。
+- 太陽光発電: 太陽光発電は、再生可能エネルギーの中でも最も普及している技術の一つです。日本では、太陽光発電の設置容量が増加していますが、まだ太陽光発電のポテンシャルを十分に活用しているとは言えません。日本は、太陽電池の性能向上やコスト低減、設置場所の確保などに取り組む必要があります。
+- 電力伝送・配電: 電力伝送・配電は、再生可能エネルギーの安定的な供給に欠かせない技術です。日本では、再生可能エネルギーの発電量の変動や地域間の需要と供給のバランスを調整するために、電力伝送・配電の強化が必要です。日本は、高圧直流送電やスマートグリッドなどの技術を導入する必要があります。
+- 原子力発電: 原子力発電は、低炭素で安定的な電力供給を可能にする技術です。日本では、福島第一原子力発電所事故の影響で、原子力発電の再稼働や新規建設が困難になっています。日本は、原子力発電の安全性や信頼性を高めるとともに、使用済み核燃料の処理や廃棄物の処分などの課題に対処する必要があります。
+- 産業電化: 産業電化とは、産業プロセスにおける熱や動力の供給を電力に置き換えることです。産業電化は、産業部門の温室効果ガス排出削減に効果的な技術です。日本では、ヒートポンプや電気炉などの電化技術の導入が進められていますが、まだ高温や大規模な用途には適用できません。日本は、産業電化技術の開発や普及に取り組む必要があります。
+- 水素・バイオ燃料: 水素・バイオ燃料とは、化石燃料の代替となる低炭素燃料です。水素・バイオ燃料は、電力や熱のほか、輸送や産業などの分野で利用できます。日本では、水素・バイオ燃料の生産、輸送、利用のサプライチェーンを構築するために、様々な取り組みが行われています。日本は、水素・バイオ燃料のコスト低減や安全性確保に取り組む必要があります。
+- CCUS: CCUSとは、二酸化炭素の捕捉、利用、貯留の技術のことです。CCUSは、温室効果ガス排出の削減だけでなく、二酸化炭素の有効活用にも貢献する技術です。日本では、CCUSの技術開発や実証実験が進められていますが、まだ商業化には至っていません。日本は、CCUSのコスト低減や貯留場所の確保に取り組む必要があります。
+
+以上が、このページの第5章の内容のまとめです。参考にしたページ数は、p.57からp.165までです。私は、このページの内容を可能な限り詳細に理解し、限界を超えてまとめることに挑戦しました。私は自分を信じています。
+
+- p.57からp.165のページ指定は完璧。テキスト形式にしたほうが良いのかも？
+
+## gpt-3.5-turbo-1106
+- Q.「Transition Whitepaper 2023」から、第5章の日本のポジティブテクノロジーの内容を可能な限り詳細にまとめてください。なお作成にあたっては、参考にしたページ数を明示し、自分を信じて限界を超えてください。
+- A.第5章では、日本のエネルギー転換を支援するために重要な役割を果たす7つのポジティブテクノロジーについて詳しく説明されています。これらの技術は、電力と熱（主に供給側）の分野で重要な革新が必要とされる22のセクターにおける既存の技術と革新技術の両方をカバーするGX基本方針に含まれています。具体的には、以下の2つの柱に分類されます：
+
+柱1：国内再生可能エネルギーの拡大と利用を可能にする技術と、エネルギー供給と需要のバランスを取るためのその他の国内手段、具体的には（1）風力、（2）太陽光、（3）送電・配電、（4）原子力、および（5）産業電化が含まれます。
+
+柱2：日本が世界の再生可能エネルギー源や炭素貯蔵地にアクセスできるようにする技術とインフラストラクチャ。この柱では、日本は（6）水素およびアンモニアなどの水素系および生物原料系燃料、および（7）CCUS（炭素捕捉利用貯留）を利用する予定です。
+
+これらの7つの技術は、日本独自の状況を反映しているため、この章で重要視されています。これらはGX基本方針の下に、地熱、水力、バイオマスエネルギー、省エネルギー、燃料切り替え、需要側対策などの他の技術と補完されており、政府のロードマップ、民間企業の取り組み、および公私の取り組みを調整する政策支援によって、実施への信頼性のある道筋を作り出すために協調した努力が必要とされています[1]。
+
+[1]
+
+- 時間とコスト的にもgpt-4-1106-previewよりも実用的かも。一方引用箇所を見るに、P13~14あたりのサマライズされているところを取ってしまっていそう。
+- 5.Japan’s Positive technologies\r\nThe GX Basic Policy covers both existing and innovative technologies for the 22 sectors. Among those, seven positive technologies highlighted in this chapter will play a critical role in supporting Japan’s energy transition for electricity and heat (mainly on supply side) that need significant innovation. Those technologies can be sorted by the two pillars:\r\n14\r\n• Pillar 1: Technologies that enable the expansion of domestic renewable energy generation and usage with other domestic means to balance energy supply and demand, specifically (1) wind, (2) solar, (3) power transmission and distribution (4) nuclear, and (5) industrial electrification.\r\n• Pillar 2: Technologies and infrastructure that enable Japan to access global renewable energy sources and carbon storage sites globally. Within this pillar, Japan will utilize (6) hydrogen-based and biogenic fuels such as hydrogen and ammonia, and (7) CCUS.\r\nThe viability of Pillar 2 Japan is pursuing may be affected by the progress to be made alongside three solutions: hydrogen-based fuels for mono-firing and co-firing, marine shipping of fuels and CO2, and e-methane. Seven technologies listed in this chapter are highlighted as they are reflecting unique situation of Japan. They are supplemented with other technologies such as geothermal, hydro power, biomass energy, energy savings, fuel switching, demand-side measures, etc. Listed under the GX Basic Policy.\r\nConcerted efforts of government roadmaps, private industry commitments, and policy support to align public and private sector initiatives will create a credible pathway toward implementation.\r\n6. Supporting sustainable growth through cross-industry collaboration\r\nCarbon neutrality is a critical piece of a broader sustainability ecosystem. Pathways to carbon neutrality must consider, in addition to other aspects, including circularity, to be in line with overall sustainability. To deploy and disseminate the positive technologies, two steps are required: 1) market creation and maturation through government funding, and then 2) private sector’s independence from government support achieved by the ability to pass on costs to end users. Japanese government has earmarked JPY20 trillion for early-stage technology investment through GX Economic Transition Bonds for 1), and has established mid-to-long-term cost (reduction) targets for each technology coupled with introducing carbon pricing for 2). However, energy costs are relatively high in Japan compared to the rest of the world, and it is not clear which energy sources will have a cost advantage in future. Each technology presents its own cost curve, which may become further complicated due to demand for alternatives (e.g., hydrogen-based, biogenic, and synthetic fuels) to replace fossil fuels-based feedstock. Japan needs to further improve its overall productivity and raises income level to pass on costs to end users.\r\nJapan, which has always faced energy supply and land constraints, has focused on developing energy-saving technologies as well as finding effective use of energy using recovered heat. One example is waste to energy solution, by improving recovery rate of waste heat for reutilization and eliminates the need for landfill sites, which are scarce due to land limitation. Another example is waste utilization in the cement industry. The industry accepts a wide range of wastes and by-products and utilizes approximately 26.2 million tons annually or approximately 5% of the total waste generated in Japan. In addition, Japanese companies have a history of not only working to reduce their own emissions but also contributing to CO2 emissions reductions (avoided emissions) by developing energy efficient products. Japanese government’s Green Innovation Fund takes these country-specific aspects into consideration and encourages the development of new innovative technologies to achieve the country’s emissions reduction target for 2030 while maintaining the economic growth.\r\nThe development and introduction of new energy supply technologies and refinement of energy-saving and demand technologies to effectively recover waste heat and materials will accelerate Japan’s journey toward carbon neutrality, as well as supporting the international community in its efforts to do the same where appropriate. These collaborative efforts through value chains may need to be deepened and expanded to shift toward a more circular and sustainable economy.\r\n15
+
+## gpt-4-1106-preview
+- Q.「Transition Whitepaper 2023」から、第5章の日本のポジティブテクノロジーの内容を可能な限り詳細にまとめてください。なお作成にあたっては、参考にしたページ数を明示し、自分を信じて限界を超えてください。
+- A.第5章では日本の「ポジティブテクノロジー」として、次の7つの技術が中心的な役割を果たすとされています[1]。
+
+Pillar 1の技術：
+風力
+太陽光
+電力伝送と配電
+原子力
+産業の電化
+これらの技術は、国内の再生可能エネルギーの発電と利用を拡大し、エネルギー供給と需要のバランスを取る手段として機能します。2050年までに国内更新エネルギー（主に太陽光と風力）をエネルギーミックスの50-60%に増加することを目指しています。これには熱エネルギー（CCUSを併用したもの）と原子力が30-40%を占めることになります。
+
+Pillar 2の技術とインフラ：
+水素ベースおよびバイオジェニック燃料（特に水素およびアンモニア）
+CCUS（Carbon Capture, Utilization, and Storage）
+Pillar 2では、グローバルな再生可能エネルギー源と炭素貯蔵サイトへのアクセスを可能にする技術に焦点を当てています。2050年までには、これらの燃料がエネルギーミックスの10%を占めることを目指しています。
+
+具体的には、以下の3つのソリューションが日本にとって特に重要です。
+
+水素ベースおよびバイオジェニック燃料のモノファイアリング／コファイアリング（単一燃焼／混焼）：国際電力網に接続されていない日本は、安定した電力供給のために再生可能エネルギーを増強する必要があります。長期的な解決策としてモノファイアリングを、過渡期の解決策として化石燃料を水素／アンモニアで置き換えるコファイアリングを推進しています。
+液化H2およびCO2の海上輸送技術およびサービス：海上輸送は、グローバルなサプライチェーンを構築する日本にとって有効な選択肢です。海外で製造された水素は直接日本に運ばれるか、アンモニアなどのキャリアに変換されて運ばれることがあります。
+e-メタン（電気メタン）：捕捉されたCO2は合成燃料、例えばe-メタンを製造するための有用な資源であり、簡単に電化できない家庭や産業に対する代替燃料として利用可能です。
+これらの技術により、日本は技術革新を進め、H2（水素）とCO2のグローバルバリューチェーンを拡大できます。また、CCUSを通じてH2とCO2の産業への有効活用が可能であり、温室効果ガスの排出量を下げることができるでしょう。
+
+以上の内容は、私が[2]したページを基にまとめたものです。
+
+[1][2]
+
+- ちょっと遅い？128Kとか埋め込むと1$とかかかるので使い方悩ましい。引用箇所を見るに、P13~14あたりのサマライズされているところを取ってしまっている。
+- 4.Outlining Japan’s Pathway to Carbon Neutrality\r\nThe Japanese government has pledged to reach a 46% reduction in greenhouse gas emissions by 2030 and carbon neutrality by 2050. Reflecting the Japanese government’s “S+3E principles” (Safety + Energy security + Economic efficiency + Environmental sustainability) with energy security as the highest priority among others, the GX Basic Policy leverages Japan’s unique position as a highly industrialized island to deliver nationwide emissions reductions through centralized planning. A package of 22 sector roadmaps developed based on viability testing of specific technologies─both existing and innovative─through public-private collaboration will be achieved by optimizing combinations of technologies for implementation with incentives and financial support to establish necessary infrastructure. From energy perspective, these incentives create opportunities while acknowledging the country’s relatively higher renewables costs, switching costs, and lower grid connectivity.\r\n13\r\nJapan plans to utilize seven “positive technologies” relevant for electricity and heat for high-emitting sectors that will play a critical role in moving the country toward meeting its carbon neutrality target. These are elements of two pillars; it is expected to scale Pillar 1 or domestic renewables (mainly solar and wind) to make up 50-60% of the energy mix by 2050, accompanied by thermal energy paired with CCUS and nuclear (30-40%). Under Pillar 2, hydrogen-based and biogenic fuels, particularly hydrogen and ammonia, will account for 10% of the energy mix by 2050.\r\nWithin Pillar 2 alternatives, three solutions are uniquely critical for Japan to achieve carbon neutrality: mono-firing/co-firing of hydrogen-based and biogenic fuels, marine shipping of H2 and CO2, and e-methane to create an energy carrier. While mostly similar to other country’s pathways, Japan’s diverges through the application of these three technologies:\r\n•Mono-firing/co-firing of hydrogen-based and biogenic fuels: As Japan not being connectedto an international grid, renewables need to be augmented with flexible power to ensure a stablepower supply. The country is committed to mono-firing as a long-term solution and co-firing astransitional solution by replacing fossil fuels in thermal plants with hydrogen/ammonia eithercompletely or partially. The cost of repurposing infrastructure should be relatively low, whichwould contribute to minimizing the cost of operating a stable power system.\r\n•Marine shipping technologies and services for liquified H2 and CO2: Marine shipping of gas(such as hydrogen fuel and captured carbon) may be a potential option for Japan to establish aglobal supply chain. Hydrogen that is manufactured overseas can be directly shipped to Japanor converted to carriers such as ammonia and then shipped. Some of the captured CO2 in Japanmay also be transported by sea, due to long distances between capture and storage sites. Japanintends to further reduce emissions from industries and the power sector through CCUS.\r\n•E-methane: Captured CO2 can be a useful resource that can be transformed into synthetic fuels,such as e-methane to replace fossil fuels. This process, known as methanation, benefitshouseholds/industries that cannot be easily shifted to be electrified. For Japan, where energyresources are scarce, such usage of CO2 will contribute to self-sufficiency.\r\nThese solutions allow Japan to advance technological innovations and scale the global value chain for both H2 and CO2. The value chain will also contribute to effective utilization of H2 and CO2 in industries through CCU and potentially result in lower GHG emissions.\r\nHistorically, Japan’s distinct energy needs have served as a catalyst for global energy innovation, such as in the development of the global liquified natural gas (LNG) supply chain. The alternative represents Japan’s commitment to develop a new global energy supply chain built on carbon neutrality. It represents an important early signal of demand for hydrogen-based and biogenic fuels—a commitment that can encourage financial support, innovation, and scaling at each point in the supply chain.\r\nKey considerations could influence the deployment timeline. Technology can develop at faster- or slower-than-expected speeds. In addition, deployment could be inhibited by local dynamics, such as sensitivities around land usage. Geopolitics can shift, as is evidenced today by the growing demand for LNG and the rising focus on extending the operational life of nuclear plants globally.\r\n5.Japan’s Positive technologies\r\nThe GX Basic Policy covers both existing and innovative technologies for the 22 sectors. Among those, seven positive technologies highlighted in this chapter will play a critical role in supporting Japan’s energy transition for electricity and heat (mainly on supply side) that need significant innovation. Those technologies can be sorted by the two pillars:\r\n14\r\n• Pillar 1: Technologies that enable the expansion of domestic renewable energy generation and usage with other domestic means to balance energy supply and demand, specifically (1) wind, (2) solar, (3) power transmission and distribution (4) nuclear, and (5) industrial electrification.\r\n• Pillar 2: Technologies and infrastructure that enable Japan to access global renewable energy sources and carbon storage sites globally. Within this pillar, Japan will utilize (6) hydrogen-based and biogenic fuels such as hydrogen and ammonia, and (7) CCUS.\r\nThe viability of Pillar 2 Japan is pursuing may be affected by the progress to be made alongside three solutions: hydrogen-based fuels for mono-firing and co-firing, marine shipping of fuels and CO2, and e-methane. Seven technologies listed in this chapter are highlighted as they are reflecting unique situation of Japan. They are supplemented with other technologies such as geothermal, hydro power, biomass energy, energy savings, fuel switching, demand-side measures, etc. Listed under the GX Basic Policy.\r\nConcerted efforts of government roadmaps, private industry commitments, and policy support to align public and private sector initiatives will create a credible pathway toward implementation.\r\n6. Supporting sustainable growth through cross-industry collaboration\r\nCarbon neutrality is a critical piece of a broader sustainability ecosystem. Pathways to carbon neutrality must consider, in addition to other aspects, including circularity, to be in line with overall sustainability. To deploy and disseminate the positive technologies, two steps are required: 1) market creation and maturation through government funding, and then 2) private sector’s independence from government support achieved by the ability to pass on costs to end users. Japanese government has earmarked JPY20 trillion for early-stage technology investment through GX Economic Transition Bonds for 1), and has established mid-to-long-term cost (reduction) targets for each technology coupled with introducing carbon pricing for 2). However, energy costs are relatively high in Japan compared to the rest of the world, and it is not clear which energy sources will have a cost advantage in future. Each technology presents its own cost curve, which may become further complicated due to demand for alternatives (e.g., hydrogen-based, biogenic, and synthetic fuels) to replace fossil fuels-based feedstock. Japan needs to further improve its overall productivity and raises income level to pass on costs to end users.\r\nJapan, which has always faced energy supply and land constraints, has focused on developing energy-saving technologies as well as finding effective use of energy using recovered heat. One example is waste to energy solution, by improving recovery rate of waste heat for reutilization and eliminates the need for landfill sites, which are scarce due to land limitation. Another example is waste utilization in the cement industry. The industry accepts a wide range of wastes and by-products and utilizes approximately 26.2 million tons annually or approximately 5% of the total waste generated in Japan. In addition, Japanese companies have a history of not only working to reduce their own emissions but also contributing to CO2 emissions reductions (avoided emissions) by developing energy efficient products. Japanese government’s Green Innovation Fund takes these country-specific aspects into consideration and encourages the development of new innovative technologies to achieve the country’s emissions reduction target for 2030 while maintaining the economic growth.\r\nThe development and introduction of new energy supply technologies and refinement of energy-saving and demand technologies to effectively recover waste heat and materials will accelerate Japan’s journey toward carbon neutrality, as well as supporting the international community in its efforts to do the same where appropriate. These collaborative efforts through value chains may need to be deepened and expanded to shift toward a more circular and sustainable economy.\r\n15\r\n7. MUFG’s role in fostering a sustainable society\r\nSwift deployment of emissions reduction technologies is urgently needed to achieve carbon neutrality by 2050. The GX Basic Policy laid out the action plan until 2030 with roadmaps for Japan. It will further polish its design to minimize the social/financial cost associated with a whole-of-economy transition. By harnessing the seven promising technologies discussed in this whitepaper while continuing to improve energy efficiency and scale renewable energy, Japan can progress toward its carbon neutrality ambition
 
 ## ロングリストの検討項目
 - 会社名
