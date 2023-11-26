@@ -1,25 +1,20 @@
 [tool.poetry]
-name = "sandbox"
+name = "myproject"
 version = "0.1.0"
 description = ""
-authors = ["minguin <minguin@users.noreply.github.com>"]
+authors = ["minagawa"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-click = "^8.1.5"
+selenium = "^4.15.2"
+beautifulsoup4 = "^4.12.2"
 requests = "^2.31.0"
-types-requests = "^2.31.0.1"
-
+tqdm = "^4.66.1"
+pandas = "^2.1.3"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.7.0"
-isort = "^5.12.0"
-autoflake = "^2.2.0"
-mock = "^5.1.0"
-mypy = "^1.4.1"
-responses = "^0.23.1"
-pytest = "^7.4.0"
+ipykernel = "^6.26.0"
 
 [build-system]
 requires = ["poetry-core"]
