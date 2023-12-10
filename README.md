@@ -44,7 +44,35 @@ Spot The Difference
 Can you spot the differences between these two pictures?
 
 after:2023-04-01 "ドトール" "中期経営計画"
+
+
 ```
+- いちご高収量 
+  - https://jgha.com/wp-content/uploads/2019/12/TS03-%E6%96%BD%E8%A8%AD%E3%81%A8%E5%9C%92%E8%8A%B8167%E5%8F%B7.pdf
+  - http://15meijin.cocolog-nifty.com/blog/2014/07/post-7c25.html
+  - https://pr.agrinews.co.jp/ad/ichigo202307/post/4365
+  - https://www.nca.or.jp/upload/part2.pdf
+  - https://www.g-agri.rd.pref.gifu.lg.jp/kenkyukadai/R05/kikouhendou/kikouhendou-vegetables.pdf
+  - http://www.emotent-agri.com/blog/10.html
+  - https://www.pref.saga.lg.jp/kiji00344379/3_44379_4_201621514344.pdf
+  - https://www.gpec.jp/data/showcase/23/3/2107_%E6%A4%8D%E7%89%A9%E5%B7%A5%E5%A0%B4_%E6%96%BD%E8%A8%AD%E5%9C%92%E8%8A%B8.pdf
+  - https://metoree.com/products/10029/
+  - https://www.pref.tochigi.lg.jp/g61/seika/documents/seika_hu15ichigojisedai.pdf
+  - https://www.pref.miyagi.jp/documents/20311/741907.pdf
+  - https://agrijournal.jp/production/51607/
+  - https://hiro-orchid.co.jp/files/libs/1175//202202071149417719.pdf
+  - https://www.pref.yamaguchi.lg.jp/uploaded/attachment/61466.pdf
+  - https://www.maff.go.jp/kanto/chiikinet/tochigi/attach/pdf/tochigi_yuryoujirei-1.pdf
+  - https://www.naro.go.jp/project/results/laboratory/karc/2015/karc15_s06.html
+  - https://www.pref.yamaguchi.lg.jp/uploaded/attachment/143480.pdf
+  - https://www.pref.yamaguchi.lg.jp/uploaded/attachment/144768.pdf
+  - https://news.livedoor.com/article/detail/20922161/
+  - http://smart2net.jp/blog-entry-1835.html
+  - https://www.nikkei.com/article/DGXNASJC2201D_V00C11A1LXA000/
+  - https://rubiscolab015.com/archives/260
+  - https://www.bing.com/search?q=%E9%A6%96%E9%83%BD%E5%9C%8F%E3%81%B8%E4%BE%9B%E7%B5%A6%E6%8B%A1%E5%A4%A7!!%E3%82%A4%E3%83%81%E3%82%B4%E7%94%9F%E7%94%A3%E3%82%92%E9%9D%A9%E6%96%B0%E3%81%99%E3%82%8B%E3%80%8C%E8%B6%85%E4%BF%83%E6%88%90%E3%80%8D%E3%80%8C%E8%B6%85%E5%A4%9A%E5%8F%8E%E3%80%8D%E3%80%8C%E9%AB%98%E5%8F%8E%E7%9B%8A%E3%80%8D%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E9%96%8B%E7%99%BA&cvid=4f6d2ea9b206495e9ca5faf0d59262c3&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg90gEHODcxajBqNKgCALACAA&FORM=ANAB01&PC=U531
+  - https://www.naro.go.jp/laboratory/brain/contents/koushihakentaisyo_28-1_shisetsuengei.pdf
+
 
 - Prompting guides
   - https://cookbook.openai.com/articles/related_resources#prompting-guides
