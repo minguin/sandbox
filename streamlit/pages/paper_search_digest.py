@@ -144,7 +144,7 @@ def create_notion_page(result, summary, response_semanticscholar):
     output.append(body)
 
     # from Semantic Scholar Academic Graph API
-    if not "error" in response_semanticscholar:
+    if "error" not in response_semanticscholar:
         payload["properties"]["Citation"]["number"] = response_semanticscholar[
             "citationCount"
         ]

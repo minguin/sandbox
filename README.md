@@ -43,6 +43,7 @@ Write code to rearrange the subplots in the figure using the latest version of m
 Spot The Difference
 Can you spot the differences between these two pictures?
 
+after:2023-04-01 "ドトール" "中期経営計画"
 ```
 
 - Prompting guides
