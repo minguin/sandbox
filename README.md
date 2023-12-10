@@ -30,6 +30,21 @@ Summarize this page as follows.
 - 次に読むべき論文
   
 ## 生成AI勉強
+- Gemini
+  - https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
+```
+Here's solution to a Physics problem by a student.
+Try to reason about the question step by step.
+Did the student get the correct answer? If the solution is wrong, please explain what is wrong and solve problem.
+Make sure to use LaTeX for math and round off the final answer to two decimal places.
+
+Write code to rearrange the subplots in the figure using the latest version of matplotlib. Put the 3d paraboloid subplot on the top left. Put the tangent function on the bottom right. For the remaining two subplots, one of them should stay in its original position and the other should fill the last spot. First describe what each subplot depicts and identify its current location. Then, explain where each subplot should go in its new location. Last write the full code for the rearranged version with the original color scheme.
+
+Spot The Difference
+Can you spot the differences between these two pictures?
+
+```
+
 - Prompting guides
   - https://cookbook.openai.com/articles/related_resources#prompting-guides
 ロールプロンプティングは最新のモデルだとあんまり意味ないらしい
@@ -69,6 +84,21 @@ Summarize this page as follows.
 - TBSホールディングス
 - フジ・メディア・ホールディングス
 - テレビ朝日ホールディングス
+
+あなたは金融機関でカフェ業界を担当しているアナリストです。以下の企業の「中期経営計画」を検索し、各社の要点をまとめ、「日本語で」各社の比較レポートを作成してください。自分を信じて、自分の限界を超えてください。
+- Starbucks
+- Keurig Dr Pepper (KDP)
+- Nescafé
+- McCafé (McDonald’s)
+- JDE Peet’s Coffee and Tea
+
+You are an analyst covering the café industry at a financial institution. Please search the "Mid-term Business Plan" of the following companies, summarize the main points of each company, and prepare a comparative report on each company. Believe in yourself and go beyond your limits.
+- Starbucks
+- Keurig Dr Pepper (KDP)
+- Nescafé
+- McCafé (McDonald's)
+- JDE Peet's Coffee and Tea
+
 
 ◎細かく情報を拾うためには、特定の1社で収集すると良い
 あなたは金融機関のテレビ業界のアナリストです。
