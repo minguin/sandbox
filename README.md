@@ -73,6 +73,12 @@ after:2023-04-01 "ドトール" "中期経営計画"
   - https://www.bing.com/search?q=%E9%A6%96%E9%83%BD%E5%9C%8F%E3%81%B8%E4%BE%9B%E7%B5%A6%E6%8B%A1%E5%A4%A7!!%E3%82%A4%E3%83%81%E3%82%B4%E7%94%9F%E7%94%A3%E3%82%92%E9%9D%A9%E6%96%B0%E3%81%99%E3%82%8B%E3%80%8C%E8%B6%85%E4%BF%83%E6%88%90%E3%80%8D%E3%80%8C%E8%B6%85%E5%A4%9A%E5%8F%8E%E3%80%8D%E3%80%8C%E9%AB%98%E5%8F%8E%E7%9B%8A%E3%80%8D%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E9%96%8B%E7%99%BA&cvid=4f6d2ea9b206495e9ca5faf0d59262c3&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg90gEHODcxajBqNKgCALACAA&FORM=ANAB01&PC=U531
   - https://www.naro.go.jp/laboratory/brain/contents/koushihakentaisyo_28-1_shisetsuengei.pdf
 
+- カフェ業界
+  - https://d18rn0p25nwr6d.cloudfront.net/CIK-0000829224/f46ecb43-3db3-4e70-9959-103e92951d49.pdf
+  - https://www.nikkei.com/nkd/disclosure/ednr/20230626S100R3VV/
+  - https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100QTV3.pdf?sv=2020-08-04&st=2023-12-12T13%3A13%3A27Z&se=2033-05-26T15%3A00%3A00Z&sr=b&sp=rl&sig=5DMJvCcszZX9TPfr9gTWqvgbEwLf%2BLxqZ0Vvzwae25M%3D
+  - https://ssl4.eir-parts.net/doc/3543/yuho_pdf/S100QTWD/00.pdf
+  - https://ssl4.eir-parts.net/doc/2593/yuho_pdf/S100RH38/00.pdf
 
 - Prompting guides
   - https://cookbook.openai.com/articles/related_resources#prompting-guides
