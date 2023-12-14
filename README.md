@@ -80,6 +80,23 @@ after:2023-04-01 "ドトール" "中期経営計画"
   - https://ssl4.eir-parts.net/doc/3543/yuho_pdf/S100QTWD/00.pdf
   - https://ssl4.eir-parts.net/doc/2593/yuho_pdf/S100RH38/00.pdf
 
+- 多言語
+  - コーヒーに関する最新の社会課題をWeb検索を活用して列挙してください。結果は日本語に翻訳してください。ステップバイステップで考えましょう。
+  - スペイン語
+    - Enumera los últimos temas sociales relacionados con el café mediante una búsqueda en Internet. Los resultados deben traducirse al japonés. Piense en ello paso a paso.
+  - ポルトガル語（ブラジル）
+    - Liste as questões sociais mais recentes relacionadas ao café usando uma pesquisa na Web. Traduza os resultados para o japonês. Pense nisso passo a passo.
+  - インドネシア語
+    - Buatlah daftar masalah sosial terbaru yang berkaitan dengan kopi menggunakan pencarian web. Terjemahkan hasilnya ke dalam bahasa Jepang. Pikirkan tentang hal ini selangkah demi selangkah.
+  - 
+  - コーヒーに関する最新の社会課題に対する各社の取り組みをWeb検索を活用して列挙してください。結果は日本語に翻訳してください。ステップバイステップで考えましょう。
+  - 中国語
+    - 通过网络搜索，列出各公司在与咖啡有关的最新社会问题上的举措。 将结果翻译成日语。 逐步思考。
+    - 
+  - オランダの施設園芸に関する最新技術・事例について教えてください。結果は日本語に翻訳してください。ステップバイステップで考えましょう。
+  - オランダ語
+    - Beschrijf de nieuwste technologieën en casestudies over facilitaire tuinbouw in Nederland. Vertaal de resultaten in het Japans. Denk stap voor stap.
+
 - Prompting guides
   - https://cookbook.openai.com/articles/related_resources#prompting-guides
 ロールプロンプティングは最新のモデルだとあんまり意味ないらしい
