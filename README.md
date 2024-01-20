@@ -47,6 +47,46 @@ after:2023-04-01 "ドトール" "中期経営計画"
 
 
 ```
+- いちご
+  - 全体感
+    - https://www.hyogo-shunou.jp/pdf/guidebook/kankyouseigyogijyutu.pdf
+      - P29 養液水分管理。日射量比例と、生殖成長と栄養成長のバランスにも言及
+      - 全体的にまとまっていて良い資料
+    - https://jgha.com/wp-content/uploads/2019/12/TS03-%E6%96%BD%E8%A8%AD%E3%81%A8%E5%9C%92%E8%8A%B8167%E5%8F%B7.pdf
+      - 土壌水分 P53~
+      - 地温　P17
+      - EC　P21、22,54
+  - 川村さんってこの方かも？
+    - https://shisetsuengei.com/news-column/work-efficiency/work-efficiency-172/
+  - 地温
+    - https://www.ja-sc.or.jp/garden/ichigo_kanri/
+      - 適温（18~21度）、マルチの話
+    - https://agriknowledge.affrc.go.jp/RN/2030872851.pdf
+      - 加温有無と収量の関係。
+    - https://www.agrinet.pref.tochigi.lg.jp/nousi/kenpou/kp_014/kp_014_10.pdf
+      - 地温の研究。でも若干古い
+    - https://www.farc.pref.fukuoka.jp/farc/seika/seika05/8seino01.htm
+      - 生育初期の地温がイチゴの生育と養分吸収に及ぼす影響
+    - https://ameblo.jp/ibseikaken/entry-10401795361.html#:~:text=%E5%9C%B0%E6%B8%A9%E3%81%8C%EF%BC%92%EF%BC%90%E2%84%83%E4%BB%A5%E4%B8%8B,%E3%81%93%E3%81%A8%E6%84%8F%E5%A4%96%E6%96%B9%E6%B3%95%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
+      - 地温の確保について地温が２０℃以下になるとイチゴの新根の発生は停滞してしまい、１５℃以下では活性が極端に低くなります。地温の確保は地面を太陽に当ててやること意外方法はありません。なるべくカーテンを全開にして太陽光を取り入れるようにしてください。（根っこの適温は地温が２０℃～２５℃です。また、１５℃以下では窒素やカリ以外の養分吸収が著しく低下します）
+
+  - 土壌水分（％）
+    - https://www.pref.yamaguchi.lg.jp/uploaded/attachment/140401.pdf
+      - P8 管理方法（日射比例、タイマー）の違いに寄らず、土壌水分を一律一定に管理（他にも気温やCO2濃度色々あり）
+      - 最低に対する比率で確認
+    - 
+  - EC（dS/m）
+    - https://www.pref.aichi.jp/uploaded/attachment/412059.pdf
+      - P2 いちご栽培管理ガイドライン（給液量、給液濃度、排液率、給液回数）。他にも気温やCO2濃度色々あり
+      - P22 給液管理
+    - https://www.okayama-u.ac.jp/user/vegetres/Beginers_for_Yoshimax_2020_Feb.pdf
+    - https://www.naro.go.jp/publicity_report/publication/files/warc_man_YoshiMaxpanfu201902a1.pdf
+      - P10,11　培養液管理
+      - 二つはほぼ同じ情報
+    - https://www.pref.tochigi.lg.jp/g61/seika/documents/kp-61.pdf
+      - ECで検索すると色々書いてある。実験的側面が強いので抽出はややむずい
+    - https://www.pref.tochigi.lg.jp/g58/seisangizyutsu/documents/itigodannkoukitaisaku.pdf
+      - P10,11 給液管理の目安
 - いちご高収量 
   - https://jgha.com/wp-content/uploads/2019/12/TS03-%E6%96%BD%E8%A8%AD%E3%81%A8%E5%9C%92%E8%8A%B8167%E5%8F%B7.pdf
   - http://15meijin.cocolog-nifty.com/blog/2014/07/post-7c25.html
