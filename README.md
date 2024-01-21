@@ -93,12 +93,17 @@ after:2023-04-01 "ドトール" "中期経営計画"
 - いちご
   - 全体感
     - https://www.hyogo-shunou.jp/pdf/guidebook/kankyouseigyogijyutu.pdf
-      - P29 養液水分管理。日射量比例と、生殖成長と栄養成長のバランスにも言及
+      - P29、32 養液水分管理。日射量比例と、生殖成長と栄養成長のバランスにも言及
+      - ph：pHが5以下、または7以上となると微量要素などの吸収が減り欠乏症を引き起こす場合がある
+      - EC：細胞内のイオン濃度は外部より高く維持されている。浸透圧効果により外部から内部へ水が引き込まれるが、外部が低いECであれば水をよく吸収し、反対に高いECでは吸水が制限される。高ECにより吸水が制限されると、新しい細胞が十分な膨圧を維持できず、葉の伸長が抑制される。葉面積の減少により、受光量が減少し、光合成量が低下する。また、水ストレスを軽減するために気孔が閉鎖され光合成量が低下する。
       - 全体的にまとまっていて良い資料
     - https://jgha.com/wp-content/uploads/2019/12/TS03-%E6%96%BD%E8%A8%AD%E3%81%A8%E5%9C%92%E8%8A%B8167%E5%8F%B7.pdf
       - 土壌水分 P53~
       - 地温　P17
       - EC　P21、22,54
+      - EC：60~130mS/m,排液率：15~20%, 排液EC：40~80mS/m。P21に月ごと管理目標
+      - 植物を栄養成長に傾けたい場合は水分量を高く、ECを低くする。生殖成長に傾けたい場合はその逆
+      - 1日、1年の水分変化の制御例あり。P55にはモニタリングすべき計算指標も
   - 川村さんってこの方かも？
     - https://shisetsuengei.com/news-column/work-efficiency/work-efficiency-172/
   - 地温
@@ -126,10 +131,12 @@ after:2023-04-01 "ドトール" "中期経営計画"
     - https://www.naro.go.jp/publicity_report/publication/files/warc_man_YoshiMaxpanfu201902a1.pdf
       - P10,11　培養液管理
       - 二つはほぼ同じ情報
+      - 培養液の過不足を判定して排液率が20～25％となるように給液量を決定し、濃度調整の目安としますが、これらの数値には葉面積の増加や光合成活性の変化のほかに、液肥混入器やCO2発生器のトラブルなど様々な状況の変化が反映されてくるので、培養液管理の基本であると認識して確認を習慣化することが重要です。
     - https://www.pref.tochigi.lg.jp/g61/seika/documents/kp-61.pdf
       - ECで検索すると色々書いてある。実験的側面が強いので抽出はややむずい
     - https://www.pref.tochigi.lg.jp/g58/seisangizyutsu/documents/itigodannkoukitaisaku.pdf
       - P10,11 給液管理の目安
+      - 培地内のpHは5.5～6.5が好適で、7.0を越えると欠乏症などが生じやすくなる
 - いちご高収量 
   - https://jgha.com/wp-content/uploads/2019/12/TS03-%E6%96%BD%E8%A8%AD%E3%81%A8%E5%9C%92%E8%8A%B8167%E5%8F%B7.pdf
   - http://15meijin.cocolog-nifty.com/blog/2014/07/post-7c25.html
