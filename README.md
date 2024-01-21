@@ -47,6 +47,42 @@ after:2023-04-01 "ドトール" "中期経営計画"
 
 
 ```
+- 補助金調査
+  - https://www.maff.go.jp/j/budget/review/r3/koupro/pdf/jigyo02_siryo.pdf
+  - https://judgit.net/projects/18053
+  - https://judgit.net/projects/12848
+    - 事例あり、ここから掘るのが良いか
+    - EPARK
+      - https://www.ofsi.or.jp/file/kyougikai/edi-kaihou/kaihou/94.pdf
+      - https://www.maff.go.jp/j/shokusan/ryutu/attach/pdf/buturyu-130.pdf
+    - 続編はここ？
+      - https://www.maff.go.jp/j/shokusan/ryutu/soumu/r5hosei_r6tousyoyosan.pdf
+      - https://www.maff.go.jp/j/shokusan/ryutu/soumu/r6tousyoyosangaisanyoukyu.pdf
+  - https://www.enecho.meti.go.jp/appli/public_offer/2023/1003_01.html
+    - 令和5年度「AI･IoT等を活用した更なる輸送効率化推進事業費補助金（新技術を用いたサプライチェーン全体の輸送効率化推進事業）」の3次公募について
+    - サプライチェーン全体の物流効率化・省エネ化の達成。省エネの観点をいれないとだが、近しい
+  - https://www.ofsi.or.jp/spplychain/
+    - 生鮮食料品等サプライチェーン緊急強化対策事業
+    - 事業実施者の要件をみると、「食品流通業者と企業組合、事業協同組合、協同組合連合会、卸売市場の開設者、運送事業者、貨物利用運送事業者等とにより構成する協議会」でいけるか？
+  - https://nsearch.jp/nyusatsu_ankens/63f372285dc3eb37d679c91a  
+    - Excelファイルが色々書いてあって参考になる
+    - この公募自体はアパレル
+  - https://www.maff.go.jp/j/shokusan/ryutu/buturyu.html  - 
+    - 食品等の流通の合理化について
+  - https://www.maff.go.jp/j/kokusai/kokusei/kaigai_nogyo/k_syokuryo/attach/pdf/itakur3-6.pdf
+    - Farm to Fork Strategy
+  - https://nsearch.jp/nyusatsu_ankens/63d830c56a1d841213446988
+    - 令和5年度フードサプライチェーンの見える化推進委託事業
+    - 脱炭素がメインか・・・？
+  - https://nsearch.jp/nyusatsu_ankens/620ffe4bc9250811f4a28aba
+    - 令和4年度フードサプライチェーンの見える化実証・実証支援委託事業
+    - 脱炭素がメインか・・・？
+    - PDFが参考になる
+  - https://nsearch.jp/nyusatsu_ankens/62bde9edb4750f11f78cda7e
+    - 次期「戦略的イノベーション創造プログラム(SIP)」の「課題候補名 豊かな食が提供される持続可能なフードチェーンの構築」に係るフィージビリティスタディ(FS)実施に関する調査・提案業務
+    - ボスコンがやってる
+  - https://www.naro.go.jp/public_information/files/202208-y04.pdf
+    - 競争入札に係る情報の公開（物品・役務等）
 - いちご
   - 全体感
     - https://www.hyogo-shunou.jp/pdf/guidebook/kankyouseigyogijyutu.pdf
