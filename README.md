@@ -64,13 +64,19 @@ after:2023-04-01 "ドトール" "中期経営計画"
   - https://www.ofsi.or.jp/spplychain/
     - 生鮮食料品等サプライチェーン緊急強化対策事業
     - 事業実施者の要件をみると、「食品流通業者と企業組合、事業協同組合、協同組合連合会、卸売市場の開設者、運送事業者、貨物利用運送事業者等とにより構成する協議会」でいけるか？
+- その他
+  - RT
+    - https://www.maff.go.jp/j/kokusai/kokusei/kaigai_nogyo/k_syokuryo/attach/pdf/itakur3-6.pdf
+      - Farm to Fork Strategy
+    - https://www.meti.go.jp/information/publicoffer/kobo/2023/k230307001.html
+      - アパレル、流通
+    - https://www.kanto.meti.go.jp/seisaku/recycle/jcredit/r5fy_jcredit_itaku.html
+      - J-CREDIT
   - https://nsearch.jp/nyusatsu_ankens/63f372285dc3eb37d679c91a  
     - Excelファイルが色々書いてあって参考になる
     - この公募自体はアパレル
   - https://www.maff.go.jp/j/shokusan/ryutu/buturyu.html  - 
     - 食品等の流通の合理化について
-  - https://www.maff.go.jp/j/kokusai/kokusei/kaigai_nogyo/k_syokuryo/attach/pdf/itakur3-6.pdf
-    - Farm to Fork Strategy
   - https://nsearch.jp/nyusatsu_ankens/63d830c56a1d841213446988
     - 令和5年度フードサプライチェーンの見える化推進委託事業
     - 脱炭素がメインか・・・？
@@ -83,6 +89,7 @@ after:2023-04-01 "ドトール" "中期経営計画"
     - ボスコンがやってる
   - https://www.naro.go.jp/public_information/files/202208-y04.pdf
     - 競争入札に係る情報の公開（物品・役務等）
+  - 
 - いちご
   - 全体感
     - https://www.hyogo-shunou.jp/pdf/guidebook/kankyouseigyogijyutu.pdf
