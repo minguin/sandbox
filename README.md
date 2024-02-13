@@ -1,229 +1,407 @@
 # README
-## テンプレート
-## プロンプト
-Summarize this page as follows.
-- What is the research?
+## 欧州出張
+ドイツの下記の企業、機関についてWeb検索を行って、詳細をまとめてください。
+- Duetsche Borse AG
+- EDEKA Ercan
 
-- What's great about it compared to previous research?
+オランダの下記の企業、機関についてWeb検索を行って、詳細をまとめてください。
+- JETRO
+- NFIA
+- The Norinchukin Bank
+- RaboBank
+- iSHARE
+- Delphy
+- TNO
+- Green Port  Venlo
 
-- What is the key to the technique or method?
+スペインの下記の企業、機関についてWeb検索を行って、詳細をまとめてください。
+- El Ejido
+- Hispatec
+- Casi
+- Tecnova
+- Unica
 
-- How was it validated?
+- ドイツ
+- Duetsche Borse AG
+- EDEKA Ercan
 
-- What are the future challenges or unsolved problems?
+- オランダのGreenPort Venloについて、Web検索を行ってより詳細にまとめてください。
+- オランダのGreenPort Venloのビジネス・サービスについて、より詳しく知るために、どのような質問をすると良いでしょうか？
+いくつかの質問例を考えて教えてください。
 
-- What paper should I read next?
+- オランダ
+- JETRO
+- NFIA
+  - https://japan.investinholland.com/
+  - オランダ経済・気候政策省 企業誘致局（Netherlands Foreign Investment Agency）の略称で、外国企業のオランダ進出・事業拡大を支援する政府の実務機関です¹。1978年に設立され、現在はオランダ企業庁（RVO）の一部として運営されています¹。NFIAの本部はハーグにあり、オランダ国内にはアムステルダム、ロッテルダム、ユトレヒト、アイントホーフェンなどに地域オフィスがあります¹。
+  - オランダの地域経済開発機構やオランダの在外公館と協力して、外国企業に対して部外秘、無償のサービスを提供しています¹。具体的には、オランダのビジネス環境や投資機会の情報提供、オランダの法律や規制、税制、労働市場などのアドバイス、オランダのパートナーやサプライヤーの紹介、オランダの拠点選定や設立の支援、オランダ政府との連携などがあります¹。
+  - オランダのイノベーションの発信地としての強みや、欧州や世界との結びつきの強さをアピールして、外国企業のオランダへの投資を促進しています¹。NFIAは、特にエネルギー、環境、健康、防衛、安全保障、都市開発などの分野において、人と地球の未来を創る戦略的ビジネスハブとしてオランダを紹介しています¹。
+  - オランダに進出した外国企業の事業拡大や再投資も支援しています¹。NFIAは、オランダに拠点を持つ外国企業のニーズや課題を把握し、オランダ政府や地方自治体との対話や協力を促進して、オランダでのビジネスの成功に貢献しています¹。
+  - Q&A
+    - 日本企業はどのような利用目的、テーマでサービスを利用しますか。またどのくらいの企業規模、業種の企業が多いですか？
+    - For what purposes and themes do Japanese companies use the service? What is the size and type of companies that use the service?
+    - 例えば農業であれば日本企業からの照会はどれくらいありますか？またどのパートナー企業やサプライヤー企業を日本企業に紹介することが多いですか？
+    - For example, in the agricultural industry, how many inquiries do you receive from Japanese companies? Also, which partners or suppliers do you introduce to Japanese companies?
 
-このページを要約してください。
+- The Norinchukin Bank
+- RaboBank
+  - https://www.rabobank.nl/particulieren
+  - オランダの協同組合銀行で、農業・食料分野に特化した金融サービスを提供しています¹²。
+  - 1970年に設立され、現在は約850万人の顧客と約4000万人のメンバーを持ちます¹。オランダ国内では、農業金融の占有率約85%、住宅ローンの新規融資シェア約22%、中小企業向け貸し出しシェア約39%、貯蓄口座占有率約36%という高い地位を占めています¹²。
+  - 世界40カ国以上に展開し、海外での金融事業は約821億ユーロで、そのうち食料・農業関連産業が約549億ユーロで約72%を占めています¹。地区別では、北米が約302億ユーロ、オーストラリア・ニュージーランドが約187ユーロ、オランダ以外のヨーロッパが約148億ユーロとなっています¹。
+  - 世界銀行グループの国際開発協会（IDA）と協力して、途上国の農業・食料セクターの発展にも貢献しています²。また、中国農業銀行や日本の農林中央金庫との提携も行っています²³ 。
+  - Q&A
+    - https://www.nochubank.or.jp/news/news_release/uploads/2015/27-14_%E6%88%A6%E7%95%A5%E7%9A%84%E6%8F%90%E6%90%BA.pdf
+    - 2015年にプレスリリースの農林中央金庫とラボバンクとの戦略的提携について、現在の状況など差し支えない範囲でご教示いただけないでしょうか？
+    - Could you please tell us, if you don't mind, the current status of the strategic alliance between Norinchukin Bank and Rabobank in the press release in 2015?
+    - どのような金融商品やサービスを提供していますか？また、それらはどのような顧客層やニーズに対応していますか？
+    - What financial products and services do you offer? What customer segments and needs do they serve?
+    - 農業金融において、どのようなデジタル技術やイノベーションを活用していますか？
+    - What digital technologies and innovations are you using in agricultural finance?
+    - 農業金融において、スコアリング・モデルなどを活用して、貸し倒れのリスクを評価していますか？また、その際にはどのようなデータやモデルを用いているのでしょうか。差し支えない範囲でご教示いただけると幸いです。
+    - Do you use scoring models or other methods to assess the risk of loan losses in agricultural finance? Also, what data and models do you use in doing so? We would appreciate it if you could provide us with as much information as you are willing to share.
 
-## Title
-- 研究内容
-
-- 先行研究との比較
-
-- 技術や方法のポイント
-
-- 検証方法
-
-- 今後の課題
-
-- 次に読むべき論文
-  
-## 生成AI勉強
-- Gemini
-  - https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
-```
-Here's solution to a Physics problem by a student.
-Try to reason about the question step by step.
-Did the student get the correct answer? If the solution is wrong, please explain what is wrong and solve problem.
-Make sure to use LaTeX for math and round off the final answer to two decimal places.
-
-Write code to rearrange the subplots in the figure using the latest version of matplotlib. Put the 3d paraboloid subplot on the top left. Put the tangent function on the bottom right. For the remaining two subplots, one of them should stay in its original position and the other should fill the last spot. First describe what each subplot depicts and identify its current location. Then, explain where each subplot should go in its new location. Last write the full code for the rearranged version with the original color scheme.
-
-Spot The Difference
-Can you spot the differences between these two pictures?
-
-after:2023-04-01 "ドトール" "中期経営計画"
-
-
-```
-- 補助金調査
-  - https://www.maff.go.jp/j/budget/review/r3/koupro/pdf/jigyo02_siryo.pdf
-  - https://judgit.net/projects/18053
-  - https://judgit.net/projects/12848
-    - 事例あり、ここから掘るのが良いか
-    - EPARK
-      - https://www.ofsi.or.jp/file/kyougikai/edi-kaihou/kaihou/94.pdf
-      - https://www.maff.go.jp/j/shokusan/ryutu/attach/pdf/buturyu-130.pdf
-    - 続編はここ？
-      - https://www.maff.go.jp/j/shokusan/ryutu/soumu/r5hosei_r6tousyoyosan.pdf
-      - https://www.maff.go.jp/j/shokusan/ryutu/soumu/r6tousyoyosangaisanyoukyu.pdf
-  - https://www.enecho.meti.go.jp/appli/public_offer/2023/1003_01.html
-    - 令和5年度「AI･IoT等を活用した更なる輸送効率化推進事業費補助金（新技術を用いたサプライチェーン全体の輸送効率化推進事業）」の3次公募について
-    - サプライチェーン全体の物流効率化・省エネ化の達成。省エネの観点をいれないとだが、近しい
-  - https://www.ofsi.or.jp/spplychain/
-    - 生鮮食料品等サプライチェーン緊急強化対策事業
-    - 事業実施者の要件をみると、「食品流通業者と企業組合、事業協同組合、協同組合連合会、卸売市場の開設者、運送事業者、貨物利用運送事業者等とにより構成する協議会」でいけるか？
-- その他
-  - RT
-    - https://www.maff.go.jp/j/kokusai/kokusei/kaigai_nogyo/k_syokuryo/attach/pdf/itakur3-6.pdf
-      - Farm to Fork Strategy
-    - https://www.meti.go.jp/information/publicoffer/kobo/2023/k230307001.html
-      - アパレル、流通
-    - https://www.kanto.meti.go.jp/seisaku/recycle/jcredit/r5fy_jcredit_itaku.html
-      - J-CREDIT
-  - https://nsearch.jp/nyusatsu_ankens/63f372285dc3eb37d679c91a  
-    - Excelファイルが色々書いてあって参考になる
-    - この公募自体はアパレル
-  - https://www.maff.go.jp/j/shokusan/ryutu/buturyu.html  - 
-    - 食品等の流通の合理化について
-  - https://nsearch.jp/nyusatsu_ankens/63d830c56a1d841213446988
-    - 令和5年度フードサプライチェーンの見える化推進委託事業
-    - 脱炭素がメインか・・・？
-  - https://nsearch.jp/nyusatsu_ankens/620ffe4bc9250811f4a28aba
-    - 令和4年度フードサプライチェーンの見える化実証・実証支援委託事業
-    - 脱炭素がメインか・・・？
-    - PDFが参考になる
-  - https://nsearch.jp/nyusatsu_ankens/62bde9edb4750f11f78cda7e
-    - 次期「戦略的イノベーション創造プログラム(SIP)」の「課題候補名 豊かな食が提供される持続可能なフードチェーンの構築」に係るフィージビリティスタディ(FS)実施に関する調査・提案業務
-    - ボスコンがやってる
-  - https://www.naro.go.jp/public_information/files/202208-y04.pdf
-    - 競争入札に係る情報の公開（物品・役務等）
+- iSHARE
+- Delphy
+  - https://delphy.nl/en/
+  - 農業および園芸のより高い知識サービスによりパートナーとなることを目指しています。農作物の栽培に関する最先端で実践的な専門知識を生産者や企業にサービスの形で提供し、収量や品質の向上と経費の削減を支援します。
+  - Q&A
+- TNO
+  - https://japan.tno.nl/tno/
+  - オランダ応用科学研究機構（Netherlands Organisation for Applied Scientific Research）の略称で、1932年にオランダ議会により設立された総合研究機関です¹²。
+  - 産業、政府、社会のための革新的なソリューションを開発することを目的としており、エネルギー、環境、健康、防衛、安全保障、都市開発などの分野で、国内外のパートナーと協力して研究プロジェクトを実施しています¹²。
+  - 約3200人の専門家が所属し、年間約6億ユーロの収入を得ています¹²。TNOは、公的機関として中立な立場にあり、基礎研究の成果をビジネス向けに応用・開発しています²³。
+  - 日本にも拠点を持ち、TNO JAPAN株式会社として、日本の企業や政府との連携を強化しています²³。TNO JAPANは、自動車やIT、エネルギー、エレクトロニクスなどの分野で、研究開発、技術移転、トレーニング、コンサルティングなどのサービスを提供しています³⁴。
+  - Q&A
+    - どのような分野やテーマで研究開発や技術移転を行っていますか？
+    - In what fields and themes do you conduct R&D and technology transfer?
+    - どのような国内外のパートナーや顧客と仕事をしていますか？
+    - With which national and international partners and clients do you work?
+    - 施設園芸分野での研究プロジェクトはありますか？具体的にはどのようなテーマで、どのような国内外のパートナーと取り組んでいますか？
+    - Do you have any research projects in the area of horticulture? What specific topics are you working on and with which domestic and international partners?
   - 
-- いちご
-  - 全体感
-    - https://www.hyogo-shunou.jp/pdf/guidebook/kankyouseigyogijyutu.pdf
-      - P29、32 養液水分管理。日射量比例と、生殖成長と栄養成長のバランスにも言及
-      - ph：pHが5以下、または7以上となると微量要素などの吸収が減り欠乏症を引き起こす場合がある
-      - EC：細胞内のイオン濃度は外部より高く維持されている。浸透圧効果により外部から内部へ水が引き込まれるが、外部が低いECであれば水をよく吸収し、反対に高いECでは吸水が制限される。高ECにより吸水が制限されると、新しい細胞が十分な膨圧を維持できず、葉の伸長が抑制される。葉面積の減少により、受光量が減少し、光合成量が低下する。また、水ストレスを軽減するために気孔が閉鎖され光合成量が低下する。
-      - 全体的にまとまっていて良い資料
-    - https://jgha.com/wp-content/uploads/2019/12/TS03-%E6%96%BD%E8%A8%AD%E3%81%A8%E5%9C%92%E8%8A%B8167%E5%8F%B7.pdf
-      - 土壌水分 P53~
-      - 地温　P17
-      - EC　P21、22,54
-      - EC：60~130mS/m,排液率：15~20%, 排液EC：40~80mS/m。P21に月ごと管理目標
-      - 植物を栄養成長に傾けたい場合は水分量を高く、ECを低くする。生殖成長に傾けたい場合はその逆
-      - 1日、1年の水分変化の制御例あり。P55にはモニタリングすべき計算指標も
-  - 川村さんってこの方かも？
-    - https://shisetsuengei.com/news-column/work-efficiency/work-efficiency-172/
-  - 地温
-    - https://www.ja-sc.or.jp/garden/ichigo_kanri/
-      - 適温（18~21度）、マルチの話
-    - https://agriknowledge.affrc.go.jp/RN/2030872851.pdf
-      - 加温有無と収量の関係。
-    - https://www.agrinet.pref.tochigi.lg.jp/nousi/kenpou/kp_014/kp_014_10.pdf
-      - 地温の研究。でも若干古い
-    - https://www.farc.pref.fukuoka.jp/farc/seika/seika05/8seino01.htm
-      - 生育初期の地温がイチゴの生育と養分吸収に及ぼす影響
-    - https://ameblo.jp/ibseikaken/entry-10401795361.html#:~:text=%E5%9C%B0%E6%B8%A9%E3%81%8C%EF%BC%92%EF%BC%90%E2%84%83%E4%BB%A5%E4%B8%8B,%E3%81%93%E3%81%A8%E6%84%8F%E5%A4%96%E6%96%B9%E6%B3%95%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
-      - 地温の確保について地温が２０℃以下になるとイチゴの新根の発生は停滞してしまい、１５℃以下では活性が極端に低くなります。地温の確保は地面を太陽に当ててやること意外方法はありません。なるべくカーテンを全開にして太陽光を取り入れるようにしてください。（根っこの適温は地温が２０℃～２５℃です。また、１５℃以下では窒素やカリ以外の養分吸収が著しく低下します）
+- GreenPort Venlo
+  - https://www.greenportvenlo.nl/
+  - Q&A
 
-  - 土壌水分（％）
-    - https://www.pref.yamaguchi.lg.jp/uploaded/attachment/140401.pdf
-      - P8 管理方法（日射比例、タイマー）の違いに寄らず、土壌水分を一律一定に管理（他にも気温やCO2濃度色々あり）
-      - 最低に対する比率で確認
-    - 
-  - EC（dS/m）
-    - https://www.pref.aichi.jp/uploaded/attachment/412059.pdf
-      - P2 いちご栽培管理ガイドライン（給液量、給液濃度、排液率、給液回数）。他にも気温やCO2濃度色々あり
-      - P22 給液管理
-    - https://www.okayama-u.ac.jp/user/vegetres/Beginers_for_Yoshimax_2020_Feb.pdf
-    - https://www.naro.go.jp/publicity_report/publication/files/warc_man_YoshiMaxpanfu201902a1.pdf
-      - P10,11　培養液管理
-      - 二つはほぼ同じ情報
-      - 培養液の過不足を判定して排液率が20～25％となるように給液量を決定し、濃度調整の目安としますが、これらの数値には葉面積の増加や光合成活性の変化のほかに、液肥混入器やCO2発生器のトラブルなど様々な状況の変化が反映されてくるので、培養液管理の基本であると認識して確認を習慣化することが重要です。
-    - https://www.pref.tochigi.lg.jp/g61/seika/documents/kp-61.pdf
-      - ECで検索すると色々書いてある。実験的側面が強いので抽出はややむずい
-    - https://www.pref.tochigi.lg.jp/g58/seisangizyutsu/documents/itigodannkoukitaisaku.pdf
-      - P10,11 給液管理の目安
-      - 培地内のpHは5.5～6.5が好適で、7.0を越えると欠乏症などが生じやすくなる
-- いちご高収量 
+- スペイン
+- El Ejido
+- Hispatec
+  - https://www.hispatec.com/en/
+  - 1985年に設立されたソフトウェアとAgTechの企業で、農業・食品産業のためのデジタルソリューションを提供しています。ヒスパテックは、スペイン本社のほか、メキシコ、ペルー、コロンビア、チリ、ブラジルなどにも拠点を持ち、30カ国以上で事業を展開しています。
+  - Q&A
+- Cooperative Agricola San Isidro（CASI）
+  - https://www.casi.es/en/
+  - 1944年に設立されたスペインの農業協同組合で、アルメリア県で最大のトマト生産者です。Casiは、約2,000人の農家が加盟し、約1,500ヘクタールの土地でトマトを栽培しています。Casiは、品質、環境、社会責任に重点を置いた生産方法で、国内外の市場にトマトを供給しています。
+  - Q&A
+
+- Tecnova
+  - https://www.fundaciontecnova.com/en/
+  - 2002年に設立されたスペインの技術センターで、農業・食品分野のイノベーションを促進することを目的としています。Tecnovaは、農業生産、加工、包装、物流、環境などの分野で、研究開発、技術移転、トレーニング、コンサルティングなどのサービスを提供しています。
+  - Q&A
+- Unica
+  - https://www.unicagroup.es/en/
+  - 2009年に設立されたスペインの農業協同組合グループで、果物や野菜の生産・販売を行っています。Unicaは、約160の協同組合や企業が加盟し、約8,000人の農家が参加しています。Unicaは、スペインで最大の野菜生産者であり、ヨーロッパで最大の生食用トマト生産者です。
+  - Q&A
+
+
+## 生成AI
+- Open AI認識しっかり
+  - https://openai.com/blog/new-models-and-developer-products-announced-at-devday
+- 便利すぎ
+  - https://typeset.io/
+
+## ロジック検討
+- 直近１週間に限定して、Web検索もしくはサステナ関連のトピックニュースを発掘する。PESTの観点いれても面白いかも。
+  1. ここはGoogle検索APIで1週間の結果を取るイメージ。多言語でやってみても面白いかも。その変換はLLM
+  2. 拾ったあとは、URLでスクレイピング（Document）して、LLMにキーワードやホットトピックを答えさせる。
+- キーワードをもとに、Web検索を行い（直近1年程度？）、解決するビジネスモデルや技術や事例などを調べさせる
+  1. そのキーワードでもう1回同じことをしてみる。
+  2. で、LLMに解決するビジネスモデルや技術や事例を答えさせる
+- ヒットしたビジネスモデルや技術や事例に該当する企業、ベンチャー企業をリストアップ、企業概要など検索させて出力させる
+  2. をやるイメージ。最新情報をとっても良い？ 
+- 同様に買い手企業を引っ張り出したり、同課題認識を持っている企業をリストアップ。他サステナ関連取り組みや可能であれば財務周りの情報を集める
+  2. をやるイメージ。こっちは出すの難しそう。
+- 買い手のビジネス領域の調査、競合の動向などまとめる
+- 株価へのポジティブインパクトなど評価させる
+
+- 直近N週間に限定して、Web検索にて業界関連の経営課題を発掘する
+- キーワードを抽出し、その経営課題感を解決するビジネスモデルや技術や事例など調べさせる
+- 上とほぼ同じなので割愛
+- 水平的なアライアンス（同業種で組んで技術を新しい市場、強化へ）、垂直的な新井アナス（他業種で組んで、技術を新しい市場、強化へ）
+- 検索→スクレイピング→プロンプト→検索→スクレイピング→プロンプト→プロンプト→プロンプト
+##　プロンプト試行（From　BingChat）
+- 直近１週間に限定して、Web検索もしくはサステナ関連のトピックニュースを発掘する
+- 以下のニュースサイトから、2024年1月20日以降のニュースを収集し、各ニュースサイトごとに要約してください。
+https://www.asahi.com/sdgs/
+https://www.bbc.com/news/science_and_environment
+https://esgnews.com/
+https://sustainabilitymag.com/esg
+https://sustainablejapan.jp/news
+https://esgjournaljapan.com/
+- このページからサステナビリティに関する技術について述べられている記事をリストアップしてください。
+  - １つ１つのニュースサイトについて上のプロンプトを打つといい感じに抽出が行われる
+  - 決めうちならば、スクレイピングやクローリングで良いかも。Robots.txtを見る
+- キーワードをもとに、Web検索を行い（直近1年程度？）、解決するビジネスモデルや技術や事例などを調べさせる
+  - 上をもとにキーワードやトピックのワードを抜いてくる
+  - それについて直近事例をウェブ検索させる。もちろん上で引っかかった親トピックはその１つとして適しているもの。
+  - 技術軸（サービス、特許、技術、）
+  - ビジネス軸（アライアンス、資本提携、提携、買収、出資、）
+- ヒットしたビジネスモデルや技術や事例に該当する企業、ベンチャー企業をリストアップ、企業概要など検索させて出力させる
+  - 上でヒットしたものに紐づく企業のイメージ
+- 同様に買い手企業を引っ張り出したり、同課題認識を持っている企業をリストアップ。他サステナ関連取り組みや可能であれば財務周りの情報を集める
+- 買い手のビジネス領域の調査、競合の動向などまとめる
+- 株価へのポジティブインパクトなど評価させる
+
+
+以下の文章から、サステナビリティに関する技術や課題についてキーワードを箇条書きで抽出し、さらにそのキーワードでWeb検索を行って技術を保有する企業、課題解決に取り組む企業について取得してまとめてください。
+
+生物多様性クレジットとは：オフセットやバンキング制度の詳細と普及の可能性を予測。
+TNFDの日本企業2社の取り組み・開示事例を紹介：自然資本の価値を評価し、気候変動や生物多様性のリスクに対応するための新たな開示基準。
+キリンビール、2024年から全工場および営業拠点で100%再生可能エネルギーへの切り替え：CO2排出量を削減し、再生可能エネルギーの普及に貢献するための取り組み。
+
+こんにちは、これはBingです。ご質問にお答えします。
+
+以下の文章から、サステナビリティに関する技術や課題についてキーワードを箇条書きで抽出し、さらにそのキーワードでWeb検索を行って技術を保有する企業、課題解決に取り組む企業について取得してまとめてください。
+
+生物多様性クレジットとは：オフセットやバンキング制度の詳細と普及の可能性を予測。
+TNFDの日本企業2社の取り組み・開示事例を紹介：自然資本の価値を評価し、気候変動や生物多様性のリスクに対応するための新たな開示基準。
+キリンビール、2024年から全工場および営業拠点で100%再生可能エネルギーへの切り替え：CO2排出量を削減し、再生可能エネルギーの普及に貢献するための取り組み。
+
+まず、サステナビリティに関する技術や課題についてキーワードを箇条書きで抽出すると、以下のようになります。
+
+- 生物多様性クレジット
+- オフセット
+- バンキング制度
+- TNFD（自然関連財務情報開示タスクフォース）
+- 自然資本
+- 気候変動
+- 生物多様性
+- 再生可能エネルギー
+- CO2排出量
+
+次に、これらのキーワードでWeb検索を行って技術を保有する企業、課題解決に取り組む企業について取得してまとめると、以下のようになります。
+
+- 生物多様性クレジット
+    * 生物多様性クレジットとは、生物多様性の保全や回復に貢献した活動やプロジェクトに対して与えられる金銭的価値を持つ単位であり、生態系クレジットや種クレジットなどがあります²⁴。
+    * 生物多様性クレジットを取り扱う企業としては、[BIODIVERSITYCREDITS](^3^)や[BiodiversityCreditAlliance](^5^)などがあります²⁴。
+    * 生物多様性クレジットを活用して課題解決に取り組む企業としては、[WORLDECONOMICFORUM](^8^)や[The Yale School of the Environment](^9^)などがあります²⁴。
+- オフセット
+    * オフセットとは、自分の活動によって発生する環境負荷を、他の場所や方法で減らすことで相殺する仕組みであり、カーボンオフセットや生物多様性オフセットなどがあります[^10^] ¹¹。
+    * オフセットを提供する企業としては、[J-クレジット制度](^12^)や[More Trees](^13^)などがあります[^10^] ¹¹。
+    * オフセットを利用して課題解決に取り組む企業としては、[ANA](^14^)や[ユニクロ]などがあります[^10^] ¹¹。
+- バンキング制度
+    * バンキング制度とは、生物多様性クレジットの一種であり、生態系の保護や復元によって得られたクレジットを銀行のように貯蓄や貸付けができる仕組みです 。
+    * バンキング制度を運営する企業としては、[Conservation Banking]や[Wildlife Habitat Council]などがあります 。
+    * バンキング制度を活用して課題解決に取り組む企業としては、[Chevron]や[Disney]などがあります 。
+- TNFD（自然関連財務情報開示タスクフォース）
+    * TNFDとは、企業や金融機関が自然資本や生物多様性に関するリスクや機会を評価し、開示するための枠組みを構築する国際的なイニシアティブです 。
+    * TNFDに参画する企業としては、[AXA]や[三菱UFJフィナンシャル・グループ]などがあります 。
+    * TNFDに基づいて課題解決に取り組む企業としては、[朝日新聞](^5^)や[大和総研](^9^)などがあります 。
+- 自然資本
+    * 自然資本とは、自然が提供する生態系サービスや資源のことであり、水や空気、土壌、植物、動物などが含まれます 。
+    * 自然資本を評価する企業としては、[自然資本評価ネットワーク]や[自然資本プロトコル]などがあります 。
+    * 自然資本を活用して課題解決に取り組む企業としては、[ダウ]や[ネスレ]などがあります 。
+- 気候変動
+    * 気候変動とは、地球の気候が長期的に変化する現象であり、温暖化や寒冷化、降水量の変化、気象災害の増加などが起こります 。
+    * 気候変動に対応する技術を開発する企業としては、[Tesla]や[パナソニック]などがあります 。
+    * 気候変動に対処して課題解決に取り組む企業としては、[アップル]や[マイクロソフト]などがあります 。
+- 生物多様性
+    * 生物多様性とは、地球上に存在するさまざまな生き物の多様性のことであり、種の多様性、遺伝子の多様性、生態系の多様性などがあります
+
+ソース: Bing との会話 2024/1/27
+(1) 生物多様性クレジット制度とトレンドについてわかりやすく解説！. https://earthene.com/media/1391.
+(2) カーボンクレジットだけじゃない。生物多様性クレジットのお .... https://kabbara.jp/blog/b0183/.
+(3) 生物多様性ネットゲインの意味や実施方法を解説 保全のための .... https://eleminist.com/article/3107.
+(4) TNFDとは何かわかりやすく解説 開示内容や参加している日本 .... https://www.asahi.com/sdgs/article/15060909.
+(5) TNFDとは？内容・背景・参画企業一覧までわかりやすく解説. https://thefinance.jp/strategy/230508.
+(6) TNFD の基準が確定、内容を概説 - 大和総研. https://www.dir.co.jp/report/research/capital-mkt/esg/20231025_024048.pdf.
+(7) なっとく！再生可能エネルギー｜資源エネルギー庁. https://www.enecho.meti.go.jp/category/saving_and_new/saiene/index.html.
+(8) 再生可能エネルギー電子申請. https://www.fit-portal.go.jp/.
+(9) 再生可能エネルギー - Wikipedia. https://ja.wikipedia.org/wiki/%E5%86%8D%E7%94%9F%E5%8F%AF%E8%83%BD%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.
+(10) undefined. https://www.fit-portal.go.jp/PublicInfo.
+(11) undefined. https://www.enecho.meti.go.jp/category/saving_and_new/saiene/kaitori/dl/announce/20231122.pdf.
+(12) TNFDとは何かわかりやすく解説 開示内容や参加している日本 .... https://www.asahi.com/sdgs/article/15060909.
+(13) TNFD の基準が確定、内容を概説 - 大和総研. https://www.dir.co.jp/report/research/capital-mkt/esg/20231025_024048.pdf.
+(14) 生物多様性クレジットとは・意味 | 世界のソーシャルグッドな .... https://ideasforgood.jp/glossary/biodiversity-credit/.
+(15) TNFDとは？背景やTCFDとの違い、対応事例について知ろう. https://www.fujitsu.com/jp/solutions/industry/retail/feature/articles/article-202301-01/.
+(16) TNFD（自然関連財務情報開示タスクフォース）とは・意味 | 世界 .... https://ideasforgood.jp/glossary/tnfd/.
+
+## 補助金調査
+- https://www.maff.go.jp/j/budget/review/r3/koupro/pdf/jigyo02_siryo.pdf
+- https://judgit.net/projects/18053
+- https://judgit.net/projects/12848
+  - 事例あり、ここから掘るのが良いか
+  - EPARK
+    - https://www.ofsi.or.jp/file/kyougikai/edi-kaihou/kaihou/94.pdf
+    - https://www.maff.go.jp/j/shokusan/ryutu/attach/pdf/buturyu-130.pdf
+  - 続編はここ？
+    - https://www.maff.go.jp/j/shokusan/ryutu/soumu/r5hosei_r6tousyoyosan.pdf
+    - https://www.maff.go.jp/j/shokusan/ryutu/soumu/r6tousyoyosangaisanyoukyu.pdf
+- https://www.enecho.meti.go.jp/appli/public_offer/2023/1003_01.html
+  - 令和5年度「AI･IoT等を活用した更なる輸送効率化推進事業費補助金（新技術を用いたサプライチェーン全体の輸送効率化推進事業）」の3次公募について
+  - サプライチェーン全体の物流効率化・省エネ化の達成。省エネの観点をいれないとだが、近しい
+- https://www.ofsi.or.jp/spplychain/
+  - 生鮮食料品等サプライチェーン緊急強化対策事業
+  - 事業実施者の要件をみると、「食品流通業者と企業組合、事業協同組合、協同組合連合会、卸売市場の開設者、運送事業者、貨物利用運送事業者等とにより構成する協議会」でいけるか？
+- その他
+- RT
+  - https://www.maff.go.jp/j/kokusai/kokusei/kaigai_nogyo/k_syokuryo/attach/pdf/itakur3-6.pdf
+    - Farm to Fork Strategy
+  - https://www.meti.go.jp/information/publicoffer/kobo/2023/k230307001.html
+    - アパレル、流通
+  - https://www.kanto.meti.go.jp/seisaku/recycle/jcredit/r5fy_jcredit_itaku.html
+    - J-CREDIT
+- https://nsearch.jp/nyusatsu_ankens/63f372285dc3eb37d679c91a  
+  - Excelファイルが色々書いてあって参考になる
+  - この公募自体はアパレル
+- https://www.maff.go.jp/j/shokusan/ryutu/buturyu.html  - 
+  - 食品等の流通の合理化について
+- https://nsearch.jp/nyusatsu_ankens/63d830c56a1d841213446988
+  - 令和5年度フードサプライチェーンの見える化推進委託事業
+  - 脱炭素がメインか・・・？
+- https://nsearch.jp/nyusatsu_ankens/620ffe4bc9250811f4a28aba
+  - 令和4年度フードサプライチェーンの見える化実証・実証支援委託事業
+  - 脱炭素がメインか・・・？
+  - PDFが参考になる
+- https://nsearch.jp/nyusatsu_ankens/62bde9edb4750f11f78cda7e
+  - 次期「戦略的イノベーション創造プログラム(SIP)」の「課題候補名 豊かな食が提供される持続可能なフードチェーンの構築」に係るフィージビリティスタディ(FS)実施に関する調査・提案業務
+  - ボスコンがやってる
+- https://www.naro.go.jp/public_information/files/202208-y04.pdf
+  - 競争入札に係る情報の公開（物品・役務等）
+
+## いちご
+- 全体感
+  - https://www.hyogo-shunou.jp/pdf/guidebook/kankyouseigyogijyutu.pdf
+    - P29、32 養液水分管理。日射量比例と、生殖成長と栄養成長のバランスにも言及
+    - ph：pHが5以下、または7以上となると微量要素などの吸収が減り欠乏症を引き起こす場合がある
+    - EC：細胞内のイオン濃度は外部より高く維持されている。浸透圧効果により外部から内部へ水が引き込まれるが、外部が低いECであれば水をよく吸収し、反対に高いECでは吸水が制限される。高ECにより吸水が制限されると、新しい細胞が十分な膨圧を維持できず、葉の伸長が抑制される。葉面積の減少により、受光量が減少し、光合成量が低下する。また、水ストレスを軽減するために気孔が閉鎖され光合成量が低下する。
+    - 全体的にまとまっていて良い資料
   - https://jgha.com/wp-content/uploads/2019/12/TS03-%E6%96%BD%E8%A8%AD%E3%81%A8%E5%9C%92%E8%8A%B8167%E5%8F%B7.pdf
-  - http://15meijin.cocolog-nifty.com/blog/2014/07/post-7c25.html
-  - https://pr.agrinews.co.jp/ad/ichigo202307/post/4365
-  - https://www.nca.or.jp/upload/part2.pdf
-  - https://www.g-agri.rd.pref.gifu.lg.jp/kenkyukadai/R05/kikouhendou/kikouhendou-vegetables.pdf
-  - http://www.emotent-agri.com/blog/10.html
-  - https://www.pref.saga.lg.jp/kiji00344379/3_44379_4_201621514344.pdf
-  - https://www.gpec.jp/data/showcase/23/3/2107_%E6%A4%8D%E7%89%A9%E5%B7%A5%E5%A0%B4_%E6%96%BD%E8%A8%AD%E5%9C%92%E8%8A%B8.pdf
-  - https://metoree.com/products/10029/
-  - https://www.pref.tochigi.lg.jp/g61/seika/documents/seika_hu15ichigojisedai.pdf
-  - https://www.pref.miyagi.jp/documents/20311/741907.pdf
-  - https://agrijournal.jp/production/51607/
-  - https://hiro-orchid.co.jp/files/libs/1175//202202071149417719.pdf
-  - https://www.pref.yamaguchi.lg.jp/uploaded/attachment/61466.pdf
-  - https://www.maff.go.jp/kanto/chiikinet/tochigi/attach/pdf/tochigi_yuryoujirei-1.pdf
-  - https://www.naro.go.jp/project/results/laboratory/karc/2015/karc15_s06.html
-  - https://www.pref.yamaguchi.lg.jp/uploaded/attachment/143480.pdf
-  - https://www.pref.yamaguchi.lg.jp/uploaded/attachment/144768.pdf
-  - https://news.livedoor.com/article/detail/20922161/
-  - http://smart2net.jp/blog-entry-1835.html
-  - https://www.nikkei.com/article/DGXNASJC2201D_V00C11A1LXA000/
-  - https://rubiscolab015.com/archives/260
-  - https://www.bing.com/search?q=%E9%A6%96%E9%83%BD%E5%9C%8F%E3%81%B8%E4%BE%9B%E7%B5%A6%E6%8B%A1%E5%A4%A7!!%E3%82%A4%E3%83%81%E3%82%B4%E7%94%9F%E7%94%A3%E3%82%92%E9%9D%A9%E6%96%B0%E3%81%99%E3%82%8B%E3%80%8C%E8%B6%85%E4%BF%83%E6%88%90%E3%80%8D%E3%80%8C%E8%B6%85%E5%A4%9A%E5%8F%8E%E3%80%8D%E3%80%8C%E9%AB%98%E5%8F%8E%E7%9B%8A%E3%80%8D%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E9%96%8B%E7%99%BA&cvid=4f6d2ea9b206495e9ca5faf0d59262c3&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg90gEHODcxajBqNKgCALACAA&FORM=ANAB01&PC=U531
-  - https://www.naro.go.jp/laboratory/brain/contents/koushihakentaisyo_28-1_shisetsuengei.pdf
+    - 土壌水分 P53~
+    - 地温　P17
+    - EC　P21、22,54
+    - EC：60~130mS/m,排液率：15~20%, 排液EC：40~80mS/m。P21に月ごと管理目標
+    - 植物を栄養成長に傾けたい場合は水分量を高く、ECを低くする。生殖成長に傾けたい場合はその逆
+    - 1日、1年の水分変化の制御例あり。P55にはモニタリングすべき計算指標も
+- 川村さんってこの方かも？
+  - https://shisetsuengei.com/news-column/work-efficiency/work-efficiency-172/
+- 地温
+  - https://www.ja-sc.or.jp/garden/ichigo_kanri/
+    - 適温（18~21度）、マルチの話
+  - https://agriknowledge.affrc.go.jp/RN/2030872851.pdf
+    - 加温有無と収量の関係。
+  - https://www.agrinet.pref.tochigi.lg.jp/nousi/kenpou/kp_014/kp_014_10.pdf
+    - 地温の研究。でも若干古い
+  - https://www.farc.pref.fukuoka.jp/farc/seika/seika05/8seino01.htm
+    - 生育初期の地温がイチゴの生育と養分吸収に及ぼす影響
+  - https://ameblo.jp/ibseikaken/entry-10401795361.html#:~:text=%E5%9C%B0%E6%B8%A9%E3%81%8C%EF%BC%92%EF%BC%90%E2%84%83%E4%BB%A5%E4%B8%8B,%E3%81%93%E3%81%A8%E6%84%8F%E5%A4%96%E6%96%B9%E6%B3%95%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82
+    - 地温の確保について地温が２０℃以下になるとイチゴの新根の発生は停滞してしまい、１５℃以下では活性が極端に低くなります。地温の確保は地面を太陽に当ててやること意外方法はありません。なるべくカーテンを全開にして太陽光を取り入れるようにしてください。（根っこの適温は地温が２０℃～２５℃です。また、１５℃以下では窒素やカリ以外の養分吸収が著しく低下します）
 
+- 土壌水分（％）
+  - https://www.pref.yamaguchi.lg.jp/uploaded/attachment/140401.pdf
+    - P8 管理方法（日射比例、タイマー）の違いに寄らず、土壌水分を一律一定に管理（他にも気温やCO2濃度色々あり）
+    - 最低に対する比率で確認
+  - 
+- EC（dS/m）
+  - https://www.pref.aichi.jp/uploaded/attachment/412059.pdf
+    - P2 いちご栽培管理ガイドライン（給液量、給液濃度、排液率、給液回数）。他にも気温やCO2濃度色々あり
+    - P22 給液管理
+  - https://www.okayama-u.ac.jp/user/vegetres/Beginers_for_Yoshimax_2020_Feb.pdf
+  - https://www.naro.go.jp/publicity_report/publication/files/warc_man_YoshiMaxpanfu201902a1.pdf
+    - P10,11　培養液管理
+    - 二つはほぼ同じ情報
+    - 培養液の過不足を判定して排液率が20～25％となるように給液量を決定し、濃度調整の目安としますが、これらの数値には葉面積の増加や光合成活性の変化のほかに、液肥混入器やCO2発生器のトラブルなど様々な状況の変化が反映されてくるので、培養液管理の基本であると認識して確認を習慣化することが重要です。
+  - https://www.pref.tochigi.lg.jp/g61/seika/documents/kp-61.pdf
+    - ECで検索すると色々書いてある。実験的側面が強いので抽出はややむずい
+  - https://www.pref.tochigi.lg.jp/g58/seisangizyutsu/documents/itigodannkoukitaisaku.pdf
+    - P10,11 給液管理の目安
+    - 培地内のpHは5.5～6.5が好適で、7.0を越えると欠乏症などが生じやすくなる
+- いちご高収量 
+- https://jgha.com/wp-content/uploads/2019/12/TS03-%E6%96%BD%E8%A8%AD%E3%81%A8%E5%9C%92%E8%8A%B8167%E5%8F%B7.pdf
+- http://15meijin.cocolog-nifty.com/blog/2014/07/post-7c25.html
+- https://pr.agrinews.co.jp/ad/ichigo202307/post/4365
+- https://www.nca.or.jp/upload/part2.pdf
+- https://www.g-agri.rd.pref.gifu.lg.jp/kenkyukadai/R05/kikouhendou/kikouhendou-vegetables.pdf
+- http://www.emotent-agri.com/blog/10.html
+- https://www.pref.saga.lg.jp/kiji00344379/3_44379_4_201621514344.pdf
+- https://www.gpec.jp/data/showcase/23/3/2107_%E6%A4%8D%E7%89%A9%E5%B7%A5%E5%A0%B4_%E6%96%BD%E8%A8%AD%E5%9C%92%E8%8A%B8.pdf
+- https://metoree.com/products/10029/
+- https://www.pref.tochigi.lg.jp/g61/seika/documents/seika_hu15ichigojisedai.pdf
+- https://www.pref.miyagi.jp/documents/20311/741907.pdf
+- https://agrijournal.jp/production/51607/
+- https://hiro-orchid.co.jp/files/libs/1175//202202071149417719.pdf
+- https://www.pref.yamaguchi.lg.jp/uploaded/attachment/61466.pdf
+- https://www.maff.go.jp/kanto/chiikinet/tochigi/attach/pdf/tochigi_yuryoujirei-1.pdf
+- https://www.naro.go.jp/project/results/laboratory/karc/2015/karc15_s06.html
+- https://www.pref.yamaguchi.lg.jp/uploaded/attachment/143480.pdf
+- https://www.pref.yamaguchi.lg.jp/uploaded/attachment/144768.pdf
+- https://news.livedoor.com/article/detail/20922161/
+- http://smart2net.jp/blog-entry-1835.html
+- https://www.nikkei.com/article/DGXNASJC2201D_V00C11A1LXA000/
+- https://rubiscolab015.com/archives/260
+- https://www.bing.com/search?q=%E9%A6%96%E9%83%BD%E5%9C%8F%E3%81%B8%E4%BE%9B%E7%B5%A6%E6%8B%A1%E5%A4%A7!!%E3%82%A4%E3%83%81%E3%82%B4%E7%94%9F%E7%94%A3%E3%82%92%E9%9D%A9%E6%96%B0%E3%81%99%E3%82%8B%E3%80%8C%E8%B6%85%E4%BF%83%E6%88%90%E3%80%8D%E3%80%8C%E8%B6%85%E5%A4%9A%E5%8F%8E%E3%80%8D%E3%80%8C%E9%AB%98%E5%8F%8E%E7%9B%8A%E3%80%8D%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E9%96%8B%E7%99%BA&cvid=4f6d2ea9b206495e9ca5faf0d59262c3&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg90gEHODcxajBqNKgCALACAA&FORM=ANAB01&PC=U531
+- https://www.naro.go.jp/laboratory/brain/contents/koushihakentaisyo_28-1_shisetsuengei.pdf
 
-- カフェ業界（サステナスコアまわりの横比較っていいんじゃないか？聞いてみたい
-  - ドトール・日レス
-    - https://www.nikkei.com/nkd/disclosure/ednr/20230526S100QTV3/
-      - 第２【事業の状況】１【経営方針、経営環境及び対処すべき課題等】の施策　P9
-        - ①既存事業の再強化（既存店の強化、ブランド価値向上） ②効率化の徹底（不採算店舗の閉鎖、業態転換の促進、イニシャルコストの低減） ③新規出店（出店候補地の厳選、新規出店の拡大促進による競争優位性の維持） ④シナジー効果の拡大（資材・食材の効率的な調達によるコスト削減、複合店・併設店・新業態の開発） ⑤成長戦略の一環としてＭ＆Ａによる事業拡大 ⑥成長機会が最も高いアジア市場を中心とするグローバル展開 ⑦内部統制強化によるガバナンス体制の確立とコンプライアンス推進
-        - △このページに書かれている、中長期的な経営戦略を遂行するための優先度の高い施策について列挙してください。
-      - 事業等のリスク
-        - ① コーヒー生豆価格相場及び為替相場の変動 ② 法的規制等について ③ 大規模自然災害・感染症等による影響について ④ 店舗の賃借物件への差入保証金等について ⑤ 出店政策について ⑥ 減損会計の適用について ⑦ 情報管理について ⑧ 海外における事業展開について
-      - ３【経営者による財政状態、経営成績及びキャッシュ・フローの状況の分析】
-        - 既存事業においては、店舗における新商品の導入やリニューアルをはじめ、テイクアウトメニューや売店商品の拡充、卸売事業におけるチルド飲料やドリップカフェなどの拡大に努め、コロナ禍に取組んだ活動を継続するとともに、さまざまなキャッシュレス・キャンペーンを実施し、販促活動を強化しました。また、業態ごとにグランドメニューの刷新や一部レギュラーメニューの価格改定なども実施することで、売上の回復を目指しました。 さらに、自社流通センターの稼働や節水機の導入など、物流や購買、管理コストの見直しを図り、業務の効率化を推進するとともに、徹底した効率化を図るなど、事業基盤の強化に努めました。 新規出店においては、サービスエリアや書店併設店舗をはじめ、メガネスーパーと連携した郊外への新規出店や金融機関との連携、小規模スペースを利用したドトールスタンドなど新たな立地に対する取組みを強化しております。 その結果、コロナ前の経営数値への改善には至っていないものの、回復傾向はハッキリと見える形で出てきた状況となりました。
-        - 店舗においては、コロナ禍に対応したテイクアウト施策や売店商品の拡大を継続しながら、季節ごとの商品など付加価値の高いメニューを随時導入し、顧客単価を上げることで売上の回復に努めました。また、ハウスカードであるドトールバリューカードやキャッシュレスなどのキャンペーンを行うことで、客数の回復を目指した施策を打ちました。一方で、人件費や原材料をはじめとしたコストアップに対し、自社流通センターを確立するなど物流体制の再構築や店舗をはじめとした節水機器の導入など、改善可能な維持管理コストの削減に着手することで、着実に利益を積み上げる体制を整えております。 卸売事業においては、ドリップコーヒーやインスタントコーヒーなど、通販や量販店での販売を拡大、巣ごもり消費に合わせた新商品の投入を引続き継続し、新たな商品の開発・販売を展開したほか、人気コンテンツとのコラボ商品を導入するなど、販売強化に努め、引き続き業容拡大に努めました。また、卸売事業にかかるコスト増に対しては、容器形態の変更、段ボールやシュリンクの削減、間接経費の削減に取り組むことで、利益の確保に努めました。
-      - ４【経営上の重要な契約等】
-        - 「ドトールコーヒーショップ」チェーン加盟契約
-          - シンプルに興味深い
-      - ５【研究開発活動】
-        - 特記事項がない、鍵になるかも？
-    - コメダ
-    - https://www.nikkei.com/nkd/disclosure/ednr/20230526S100QTWD/
-      - ３【事業の内容】
-      - 第２【事業の状況】
-      - ２【事業等のリスク】
-        - このページに書かれている、事業等のリスクについて列挙してください。
-  - タリーズ（伊藤園の完全子会社）
-    - https://www.nikkei.com/nkd/disclosure/ednr/20230727S100RH38/
-      - タリーズ、飲食関連事業、フランチャイズが該当箇所か。記載はあんまり書いてない
-  - サンマルク
-    - https://www.nikkei.com/nkd/disclosure/ednr/20230626S100R3VV/
-    - 第２【事業の状況】１【経営方針、経営環境及び対処すべき課題等】
-      - このような中、当社グループといたしましては、価値あるメニューの開発、既存店の内外装に係るメンテナンスを行い、既存店売上の回復及びコストアップの抑制に努めるとともに、不採算店舗の整理を進めつつ、M＆Aを含めた新業態及び派生業態の開発を出店につなげることで企業価値の向上に取り組んでまいります。
-    - ２【サステナビリティに関する考え方及び取組】
-      - 当社では、2100年における世界の気温上昇が1.5°C上昇、２°C上昇、４°C上昇の世界観を想定し、当社ならびに連結子会社４社を対象として、2030年におけるシナリオ分析を実施しました。 特に当社への影響が大きく、実際に起きる可能性も高いと想定されるリスク７項目、機会６項目として以下を認識しております。
-      - 対応策と具体的内容
-      - 当社では2021年度よりScope１～３のCO2排出量把握に取り組み始めており、2021年度Scope１、２のCO2排出量は36,207t、及びScope３のCo2排出量は109,756tであります。 目標値につきましては、当社2021年度のCO2排出量を基準値として、Scope１、２のCO2排出量の削減に向けた2030年度の排出削減目標を以下のとおり設定いたしました。「2030年度目標：売上百万円あたりのCO2排出量を0.55t-CO2以下に削減（2021年度0.76t-CO2/百万円）」 Scope３のCO2排出量につきましても環境に配慮した食材・資材の活用や廃棄物の削減により、削減に貢献してまいります。
-    - ３【事業等のリスク】①新業態の開発・事業化について～⑧自然災害等に関するリスク
-    - ５【経営上の重要な契約等】１．物流に関する基本協定、２．フランチャイズ契約
-  - スターバックス
-    - https://investor.starbucks.com/financial-data/sec-filings/default.aspx
-    - P3 Businnes
-    - Risk Factors
-  - ロイヤルHD
-    - https://www.nikkei.com/nkd/disclosure/ednr/20230330S100QGC3/
-    - 双日と一緒にカフェ事業、中計も統合報告書もある
-  - Restaurant Brands International LP
-    - https://www.rbi.com/English/investors/sec-filings/sec-filings-details/default.aspx?FilingId=16423477
-    - P4 Businnes
-    - Risk Factors
-  - Luckin Coffee Inc（Form 10-K相当のForm 20-F
-    - https://investor.luckincoffee.co/financial-information/sec-filings?field_nir_sec_form_group_target_id%5B%5D=471&field_nir_sec_date_filed_value=#views-exposed-form-widget-sec-filings-table
-    - P10 当社の事業および業界に関連するリスク
-    - P66 4.b. Bussiness Overview
-  - 以下、優先度低
-  - 銀座ルノアール
-    - https://contents.xj-storage.jp/xcontents/AS01681/9940c66a/3ae0/4d76/8122/f1deeaa44ed7/S100R75J.pdf
-  - UCC
-    - 未上場
-  - プロント（サントリーとUCCの合弁企業）
-    - 未上場
-  - ベックス（株式会社JR東日本クロスステーション運営。ここはJR東日本の子会社
-    - 東日本
-
+## カフェ業界
+- ドトール・日レス
+  - https://www.nikkei.com/nkd/disclosure/ednr/20230526S100QTV3/
+    - 第２【事業の状況】１【経営方針、経営環境及び対処すべき課題等】の施策　P9
+      - ①既存事業の再強化（既存店の強化、ブランド価値向上） ②効率化の徹底（不採算店舗の閉鎖、業態転換の促進、イニシャルコストの低減） ③新規出店（出店候補地の厳選、新規出店の拡大促進による競争優位性の維持） ④シナジー効果の拡大（資材・食材の効率的な調達によるコスト削減、複合店・併設店・新業態の開発） ⑤成長戦略の一環としてＭ＆Ａによる事業拡大 ⑥成長機会が最も高いアジア市場を中心とするグローバル展開 ⑦内部統制強化によるガバナンス体制の確立とコンプライアンス推進
+      - △このページに書かれている、中長期的な経営戦略を遂行するための優先度の高い施策について列挙してください。
+    - 事業等のリスク
+      - ① コーヒー生豆価格相場及び為替相場の変動 ② 法的規制等について ③ 大規模自然災害・感染症等による影響について ④ 店舗の賃借物件への差入保証金等について ⑤ 出店政策について ⑥ 減損会計の適用について ⑦ 情報管理について ⑧ 海外における事業展開について
+    - ３【経営者による財政状態、経営成績及びキャッシュ・フローの状況の分析】
+      - 既存事業においては、店舗における新商品の導入やリニューアルをはじめ、テイクアウトメニューや売店商品の拡充、卸売事業におけるチルド飲料やドリップカフェなどの拡大に努め、コロナ禍に取組んだ活動を継続するとともに、さまざまなキャッシュレス・キャンペーンを実施し、販促活動を強化しました。また、業態ごとにグランドメニューの刷新や一部レギュラーメニューの価格改定なども実施することで、売上の回復を目指しました。 さらに、自社流通センターの稼働や節水機の導入など、物流や購買、管理コストの見直しを図り、業務の効率化を推進するとともに、徹底した効率化を図るなど、事業基盤の強化に努めました。 新規出店においては、サービスエリアや書店併設店舗をはじめ、メガネスーパーと連携した郊外への新規出店や金融機関との連携、小規模スペースを利用したドトールスタンドなど新たな立地に対する取組みを強化しております。 その結果、コロナ前の経営数値への改善には至っていないものの、回復傾向はハッキリと見える形で出てきた状況となりました。
+      - 店舗においては、コロナ禍に対応したテイクアウト施策や売店商品の拡大を継続しながら、季節ごとの商品など付加価値の高いメニューを随時導入し、顧客単価を上げることで売上の回復に努めました。また、ハウスカードであるドトールバリューカードやキャッシュレスなどのキャンペーンを行うことで、客数の回復を目指した施策を打ちました。一方で、人件費や原材料をはじめとしたコストアップに対し、自社流通センターを確立するなど物流体制の再構築や店舗をはじめとした節水機器の導入など、改善可能な維持管理コストの削減に着手することで、着実に利益を積み上げる体制を整えております。 卸売事業においては、ドリップコーヒーやインスタントコーヒーなど、通販や量販店での販売を拡大、巣ごもり消費に合わせた新商品の投入を引続き継続し、新たな商品の開発・販売を展開したほか、人気コンテンツとのコラボ商品を導入するなど、販売強化に努め、引き続き業容拡大に努めました。また、卸売事業にかかるコスト増に対しては、容器形態の変更、段ボールやシュリンクの削減、間接経費の削減に取り組むことで、利益の確保に努めました。
+    - ４【経営上の重要な契約等】
+      - 「ドトールコーヒーショップ」チェーン加盟契約
+        - シンプルに興味深い
+    - ５【研究開発活動】
+      - 特記事項がない、鍵になるかも？
+  - コメダ
+  - https://www.nikkei.com/nkd/disclosure/ednr/20230526S100QTWD/
+    - ３【事業の内容】
+    - 第２【事業の状況】
+    - ２【事業等のリスク】
+      - このページに書かれている、事業等のリスクについて列挙してください。
+- タリーズ（伊藤園の完全子会社）
+  - https://www.nikkei.com/nkd/disclosure/ednr/20230727S100RH38/
+    - タリーズ、飲食関連事業、フランチャイズが該当箇所か。記載はあんまり書いてない
+- サンマルク
+  - https://www.nikkei.com/nkd/disclosure/ednr/20230626S100R3VV/
+  - 第２【事業の状況】１【経営方針、経営環境及び対処すべき課題等】
+    - このような中、当社グループといたしましては、価値あるメニューの開発、既存店の内外装に係るメンテナンスを行い、既存店売上の回復及びコストアップの抑制に努めるとともに、不採算店舗の整理を進めつつ、M＆Aを含めた新業態及び派生業態の開発を出店につなげることで企業価値の向上に取り組んでまいります。
+  - ２【サステナビリティに関する考え方及び取組】
+    - 当社では、2100年における世界の気温上昇が1.5°C上昇、２°C上昇、４°C上昇の世界観を想定し、当社ならびに連結子会社４社を対象として、2030年におけるシナリオ分析を実施しました。 特に当社への影響が大きく、実際に起きる可能性も高いと想定されるリスク７項目、機会６項目として以下を認識しております。
+    - 対応策と具体的内容
+    - 当社では2021年度よりScope１～３のCO2排出量把握に取り組み始めており、2021年度Scope１、２のCO2排出量は36,207t、及びScope３のCo2排出量は109,756tであります。 目標値につきましては、当社2021年度のCO2排出量を基準値として、Scope１、２のCO2排出量の削減に向けた2030年度の排出削減目標を以下のとおり設定いたしました。「2030年度目標：売上百万円あたりのCO2排出量を0.55t-CO2以下に削減（2021年度0.76t-CO2/百万円）」 Scope３のCO2排出量につきましても環境に配慮した食材・資材の活用や廃棄物の削減により、削減に貢献してまいります。
+  - ３【事業等のリスク】①新業態の開発・事業化について～⑧自然災害等に関するリスク
+  - ５【経営上の重要な契約等】１．物流に関する基本協定、２．フランチャイズ契約
+- スターバックス
+  - https://investor.starbucks.com/financial-data/sec-filings/default.aspx
+  - P3 Businnes
+  - Risk Factors
+- ロイヤルHD
+  - https://www.nikkei.com/nkd/disclosure/ednr/20230330S100QGC3/
+  - 双日と一緒にカフェ事業、中計も統合報告書もある
+- Restaurant Brands International LP
+  - https://www.rbi.com/English/investors/sec-filings/sec-filings-details/default.aspx?FilingId=16423477
+  - P4 Businnes
+  - Risk Factors
+- Luckin Coffee Inc（Form 10-K相当のForm 20-F
+  - https://investor.luckincoffee.co/financial-information/sec-filings?field_nir_sec_form_group_target_id%5B%5D=471&field_nir_sec_date_filed_value=#views-exposed-form-widget-sec-filings-table
+  - P10 当社の事業および業界に関連するリスク
+  - P66 4.b. Bussiness Overview
+- 以下、優先度低
+- 銀座ルノアール
+  - https://contents.xj-storage.jp/xcontents/AS01681/9940c66a/3ae0/4d76/8122/f1deeaa44ed7/S100R75J.pdf
+- UCC
+  - 未上場
+- プロント（サントリーとUCCの合弁企業）
+  - 未上場
+- ベックス（株式会社JR東日本クロスステーション運営。ここはJR東日本の子会社
+  - 東日本
 - 企業
   - スタバ、サンマルク、ドトール、コメダ、タリーズ、上島珈琲、プロント、ベックス、ミスド、モス、マクド、ケンタ、ファミマ
   - 世界
@@ -233,97 +411,87 @@ after:2023-04-01 "ドトール" "中期経営計画"
 - 想定課題
   - 生産コスト削減、物流ルート再構築、生産拠点、生産ラインや設備、ノウハウ継承、原材料調達、フードロス、人事制度、商品多角化
 
-
-- 多言語
-  - コーヒーに関する最新の社会課題をWeb検索を活用して列挙してください。結果は日本語に翻訳してください。ステップバイステップで考えましょう。
+## 多言語の有用性
+- コーヒーに関する最新の社会課題
+  - 日本語
+    - コーヒーに関する最新の社会課題をWeb検索を活用して列挙してください。結果は日本語に翻訳してください。ステップバイステップで考えましょう。
   - スペイン語
     - Enumera los últimos temas sociales relacionados con el café mediante una búsqueda en Internet. Los resultados deben traducirse al japonés. Piense en ello paso a paso.
   - ポルトガル語（ブラジル）
     - Liste as questões sociais mais recentes relacionadas ao café usando uma pesquisa na Web. Traduza os resultados para o japonês. Pense nisso passo a passo.
   - インドネシア語
     - Buatlah daftar masalah sosial terbaru yang berkaitan dengan kopi menggunakan pencarian web. Terjemahkan hasilnya ke dalam bahasa Jepang. Pikirkan tentang hal ini selangkah demi selangkah.
-  - 
-  - コーヒーに関する最新の社会課題に対する各社の取り組みをWeb検索を活用して列挙してください。結果は日本語に翻訳してください。ステップバイステップで考えましょう。
+- コーヒーに関する最新の社会課題に対する各社の取り組み
+  - 日本語
+    - コーヒーに関する最新の社会課題に対する各社の取り組みをWeb検索を活用して列挙してください。結果は日本語に翻訳してください。ステップバイステップで考えましょう。
   - 中国語
     - 通过网络搜索，列出各公司在与咖啡有关的最新社会问题上的举措。 将结果翻译成日语。 逐步思考。
-    - 
-  - オランダの施設園芸に関する最新技術・事例について教えてください。結果は日本語に翻訳してください。ステップバイステップで考えましょう。
+- オランダの施設園芸
+  - 日本語
+    - オランダの施設園芸に関する最新技術・事例について教えてください。結果は日本語に翻訳してください。ステップバイステップで考えましょう。
   - オランダ語
     - Beschrijf de nieuwste technologieën en casestudies over facilitaire tuinbouw in Nederland. Vertaal de resultaten in het Japans. Denk stap voor stap.
 
-- Prompting guides
-  - https://cookbook.openai.com/articles/related_resources#prompting-guides
-ロールプロンプティングは最新のモデルだとあんまり意味ないらしい
+- 為替
+  - ◯「為替相場見通し」で検索した結果を要約してください。
+  - ◎あなたは金融機関の為替担当のアナリストです。「為替相場 見通し」で検索した結果を基に、為替相場のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+  - You are an analyst in charge of currency exchange at a financial institution and have been asked to prepare a report on currency exchange rates based on the results of a search for "currency exchange rate forecasts".In preparing the report, please believe in yourself and go beyond your limits.
+- 国内金利
+  - あなたは金融機関の国内金利担当のアナリストです。「国内金利相場 見通し」で検索した結果を基に、国内金利相場のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+  - You are an analyst in charge of domestic interest rates at a financial institution and have been asked to prepare a report on domestic interest rates based on your search for "domestic interest rate forecast".In preparing the report, please believe in yourself and go beyond your limits.
+- 米国金利
+  - あなたは金融機関の米国金利担当のアナリストです。「米国金利相場 見通し」で検索した結果を基に、米国金利相場のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+  - You are an analyst in charge of U.S. interest rates at a financial institution and you are asked to prepare a report on U.S. interest rates based on the results of a search for "U.S. interest rate market outlook".In preparing your report, please believe in yourself and go beyond your limits.
+- 原油
+  - あなたは金融機関の原油担当のアナリストです。「原油価格 見通し」で検索した結果を基に、原油価格のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+  - You are an analyst in charge of crude oil at a financial institution and you are asked to prepare a report on crude oil prices based on the results of a search for "crude oil price forecast".In preparing the report, please believe in yourself and go beyond your limits.
+- 天然ガス
+  - あなたは金融機関の天然ガス担当のアナリストです。「天然ガス価格 見通し」で検索した結果を基に、天然ガス価格のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+  - You are an analyst in charge of natural gas at a financial institution and you are asked to prepare a report on natural gas prices based on the results of a search for "natural gas price forecast".In preparing the report, please believe in yourself and go beyond your limits.
+- 石炭
+  - あなたは金融機関の石炭担当のアナリストです。「石炭価格 見通し」で検索した結果を基に、石炭価格のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
+  - You are an analyst in charge of coal at a financial institution and you are asked to prepare a report on coal prices based on the results of a search for "coal price forecast".In preparing the report, please believe in yourself and go beyond your limits.
 
-- プロンプト
-  - 為替
-    - ◯「為替相場見通し」で検索した結果を要約してください。
-    - ◎あなたは金融機関の為替担当のアナリストです。「為替相場 見通し」で検索した結果を基に、為替相場のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
-    - You are an analyst in charge of currency exchange at a financial institution and have been asked to prepare a report on currency exchange rates based on the results of a search for "currency exchange rate forecasts".In preparing the report, please believe in yourself and go beyond your limits.
-  - 国内金利
-    - あなたは金融機関の国内金利担当のアナリストです。「国内金利相場 見通し」で検索した結果を基に、国内金利相場のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
-    - You are an analyst in charge of domestic interest rates at a financial institution and have been asked to prepare a report on domestic interest rates based on your search for "domestic interest rate forecast".In preparing the report, please believe in yourself and go beyond your limits.
-  - 米国金利
-    - あなたは金融機関の米国金利担当のアナリストです。「米国金利相場 見通し」で検索した結果を基に、米国金利相場のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
-    - You are an analyst in charge of U.S. interest rates at a financial institution and you are asked to prepare a report on U.S. interest rates based on the results of a search for "U.S. interest rate market outlook".In preparing your report, please believe in yourself and go beyond your limits.
-  - 原油
-    - あなたは金融機関の原油担当のアナリストです。「原油価格 見通し」で検索した結果を基に、原油価格のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
-    - You are an analyst in charge of crude oil at a financial institution and you are asked to prepare a report on crude oil prices based on the results of a search for "crude oil price forecast".In preparing the report, please believe in yourself and go beyond your limits.
-  - 天然ガス
-    - あなたは金融機関の天然ガス担当のアナリストです。「天然ガス価格 見通し」で検索した結果を基に、天然ガス価格のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
-    - You are an analyst in charge of natural gas at a financial institution and you are asked to prepare a report on natural gas prices based on the results of a search for "natural gas price forecast".In preparing the report, please believe in yourself and go beyond your limits.
-  - 石炭
-    - あなたは金融機関の石炭担当のアナリストです。「石炭価格 見通し」で検索した結果を基に、石炭価格のレポートを作成してください。なお作成にあたっては、自分を信じて限界を超えてください。
-    - You are an analyst in charge of coal at a financial institution and you are asked to prepare a report on coal prices based on the results of a search for "coal price forecast".In preparing the report, please believe in yourself and go beyond your limits.
+- ◎有報から抜粋させて答えさせるより、普通にWeb検索ベースで聞いたほうが良い結果になる
+  - 日本テレビホールディングスの中期経営計画について、Web検索も併用して、具体的な取り組みに関して要点をまとめてください。
+  - 日本テレビホールディングスの「経営方針、経営環境及び対処すべき課題等」について、検索を行い、要点をまとめてください。また競合企業の「TBSホールディングス」に対しても同様の要点整理を行い、両社の比較を行ってください。
 
+- ◯複数社で行うと、情報が薄くなってしまう。全体俯瞰には良いかも？
+  - あなたは金融機関のテレビ業界のアナリストです。以下の企業の「中期経営計画」について、検索を行い、各社ごとに要点をまとめて、各社の比較を行ってください。なお作成にあたっては、自分を信じて限界を超えてください。
+    - 日本テレビホールディングス
+    - TBSホールディングス
+    - フジ・メディア・ホールディングス
+    - テレビ朝日ホールディングス
+- カフェ企業アナリスト（日本語）
+  - あなたは金融機関でカフェ業界を担当しているアナリストです。以下の企業の「中期経営計画」を検索し、各社の要点をまとめ、「日本語で」各社の比較レポートを作成してください。自分を信じて、自分の限界を超えてください。
+    - Starbucks
+    - Keurig Dr Pepper (KDP)
+    - Nescafé
+    - McCafé (McDonald’s)
+    - JDE Peet’s Coffee and Tea
 
-◎有報から抜粋させて答えさせるより、普通にWeb検索ベースで聞いたほうが良い結果になる
-日本テレビホールディングスの中期経営計画について、Web検索も併用して、具体的な取り組みに関して要点をまとめてください。
+- カフェ企業アナリスト（英語）
+  - You are an analyst covering the café industry at a financial institution. Please search the "Mid-term Business Plan" of the following companies, summarize the main points of each company, and prepare a comparative report on each company. Believe in yourself and go beyond your limits.
+    - Starbucks
+    - Keurig Dr Pepper (KDP)
+    - Nescafé
+    - McCafé (McDonald's)
+    - JDE Peet's Coffee and Tea
 
-日本テレビホールディングスの「経営方針、経営環境及び対処すべき課題等」について、検索を行い、要点をまとめてください。
-また競合企業の「TBSホールディングス」に対しても同様の要点整理を行い、両社の比較を行ってください。
+- ◎細かく情報を拾うためには、特定の1社で収集すると良い
+  - あなたは金融機関のテレビ業界のアナリストです。日本テレビホールディングスの「中期経営計画」について、検索を行い、要点をまとめてください。なお作成にあたっては、自分を信じて限界を超えてください。
 
-◯複数社で行うと、情報が薄くなってしまう。全体俯瞰には良いかも？
-あなたは金融機関のテレビ業界のアナリストです。
-以下の企業の「中期経営計画」について、検索を行い、各社ごとに要点をまとめて、各社の比較を行ってください。なお作成にあたっては、自分を信じて限界を超えてください。
-- 日本テレビホールディングス
-- TBSホールディングス
-- フジ・メディア・ホールディングス
-- テレビ朝日ホールディングス
+- ◎より創造的に、がいい感じ
+  - 日本テレビホールディングスの「業務提携」に関する情報を、表にまとめてください。
+  - 日本テレビホールディングスのプレスリリースについて、検索を行い、要点をまとめてください。なお作成にあたっては、自分を信じて限界を超えてください。
+- 物流業界における今後の課題と、それに対応するための企業戦略について、教えてください。
+- これらの課題を解決できる企業について、具体的なソリューションの説明とともに、リストアップしてください。
+- 以上の情報を、物流業界の企業に説明する際の台本としてまとめ上げてください。
 
-あなたは金融機関でカフェ業界を担当しているアナリストです。以下の企業の「中期経営計画」を検索し、各社の要点をまとめ、「日本語で」各社の比較レポートを作成してください。自分を信じて、自分の限界を超えてください。
-- Starbucks
-- Keurig Dr Pepper (KDP)
-- Nescafé
-- McCafé (McDonald’s)
-- JDE Peet’s Coffee and Tea
-
-You are an analyst covering the café industry at a financial institution. Please search the "Mid-term Business Plan" of the following companies, summarize the main points of each company, and prepare a comparative report on each company. Believe in yourself and go beyond your limits.
-- Starbucks
-- Keurig Dr Pepper (KDP)
-- Nescafé
-- McCafé (McDonald's)
-- JDE Peet's Coffee and Tea
-
-
-◎細かく情報を拾うためには、特定の1社で収集すると良い
-あなたは金融機関のテレビ業界のアナリストです。
-日本テレビホールディングスの「中期経営計画」について、検索を行い、要点をまとめてください。なお作成にあたっては、自分を信じて限界を超えてください。
-
-◎より創造的に、がいい感じ
-日本テレビホールディングスの「業務提携」に関する情報を、表にまとめてください。
-
-日本テレビホールディングスのプレスリリースについて、検索を行い、要点をまとめてください。なお作成にあたっては、自分を信じて限界を超えてください。
-
-物流業界における今後の課題と、それに対応するための企業戦略について、教えてください。
-これらの課題を解決できる企業について、具体的なソリューションの説明とともに、リストアップしてください。
-以上の情報を、物流業界の企業に説明する際の台本としてまとめ上げてください。
-
-みずほ銀行における今後の課題について、IR情報をもとに、教えてください。
-
-みずほ銀行の最新IR資料の情報を教えてください。
-資料について、要点を整理してください。
-この資料中に、経営課題やリスクについて記載されていますか？
+- みずほ銀行における今後の課題について、IR情報をもとに、教えてください。
+- みずほ銀行の最新IR資料の情報を教えてください。
+- 資料について、要点を整理してください。
+- この資料中に、経営課題やリスクについて記載されていますか？
 
 ## Claude2
 - Q.「Transition Whitepaper 2023」から、第5章の日本のポジティブテクノロジーの内容を可能な限り詳細にまとめてください。なお作成にあたっては、参考にしたページ数を明示し、自分を信じて限界を超えてください。
@@ -514,7 +682,6 @@ e-メタン（電気メタン）：捕捉されたCO2は合成燃料、例えば
 #### A.8.4 実務活用意向（重要度：高）
 - △機会があれば、推薦リストをお客さんに持っていきたい
 
-
 ## アンケート項目_日本語修正、一部集約
 ### A1. 推奨品目の品質
 #### A.1.1 正確さ
@@ -678,6 +845,36 @@ e-メタン（電気メタン）：捕捉されたCO2は合成燃料、例えば
 - このレコメンダーを友人に紹介する。
 #### A.8.4 購入意向
 - 機会があれば、レコメンドされた商品を購入したい。
+
+## 論文要約テンプレート
+## プロンプト
+Summarize this page as follows.
+- What is the research?
+
+- What's great about it compared to previous research?
+
+- What is the key to the technique or method?
+
+- How was it validated?
+
+- What are the future challenges or unsolved problems?
+
+- What paper should I read next?
+
+このページを要約してください。
+
+## Title
+- 研究内容
+
+- 先行研究との比較
+
+- 技術や方法のポイント
+
+- 検証方法
+
+- 今後の課題
+
+- 次に読むべき論文
 
 ## A User-Centric Evaluation Framework of Recommender Systems
 - 研究内容
