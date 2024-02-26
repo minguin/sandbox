@@ -178,6 +178,15 @@ GAPやって7年
     - https://www.jetro.go.jp/biz/areareports/special/2023/1203/
   - オランダで黒松が大ブーム！？ 盆栽から新たなステージへ
     - https://www.jetro.go.jp/tv/internet/2024/02/f8c9365a511f1f1e.html
+  - Q&A
+    - どのような業種や技術を持つスタートアップの海外支援が直近オランダでは多いですか？
+    - In which industries and technologies do you most recently support start-ups abroad in the Netherlands?
+    - 日本における協業先としてはどのような業種や規模の会社を選定されるのでしょうか？
+    - What industries and sizes of companies do you select for cooperation in Japan?
+    - オランダにおける日本の農林水産物・食品輸出の支援について事例があれば教えてください。
+    - Please provide any examples of support for the export of Japanese agricultural, forestry and fisheries products and foodstuffs in the Netherlands.
+    - オランダに置いても「地方創生」の取り組みが各地でなされていますか？その場合どのような社会課題でどのようなテーマが多いのでしょうか？
+    - Are there any 'regional development' initiatives in the Netherlands in various regions? If so, what kind of social issues and themes are most common?    - 
 
 - NFIA
   - https://japan.investinholland.com/
@@ -214,6 +223,13 @@ GAPやって7年
     - https://www.portfolio.nl/news/post2545/
   - 農中、プロジェクトファイナンス拡大へ－ドイツやオランダ、南米でも
     - https://www.bloomberg.co.jp/news/articles/2019-07-04/PU1N3R6KLVR401
+  - Q&A
+    - プロジェクトファイナンスの事業拡大をオランダで始められてから、どのようなテーマでの案件を組成されてきましたか。
+    - Since you started to expand your project finance business in the Netherlands, what types of deals have you structured?
+    - グリーンファイナンスにおける今後の見通しや貴金庫で注力する分野等ありますでしょうか。
+    - What is the future outlook for green finance and are there any areas of focus for your bank?
+    - また、レギュラトリーテクノロジー（RegTech）ではいかがでしょうか？
+    - And what about Regulatory Technology (RegTech)?
 - RaboBank
   - https://www.rabobank.nl/particulieren
   - オランダの協同組合銀行で、農業・食料分野に特化した金融サービスを提供しています。
@@ -245,8 +261,8 @@ GAPやって7年
     - In what fields and themes do you conduct R&D and technology transfer?
     - どのような国内外のパートナーや顧客と仕事をしていますか？
     - With which national and international partners and clients do you work?
-    - 施設園芸分野での研究プロジェクトはありますか？
-    - Do you have any research projects in the area of horticulture? 
+    - 施設園芸分野での直近の研究プロジェクトや重点テーマは何でしょうか？
+    - What are the most recent research projects or priority themes in the field of institutional horticulture?
     - 具体的にはどのようなテーマで、どのような国内外のパートナーと取り組んでいますか？
     - What specific topics are you working on and with which domestic and international partners?
 - TNO Logistics
@@ -296,9 +312,25 @@ GAPやって7年
 - Wageningen University & Research
   - 自立温室チャレンジ、改めてまとめる
   - https://www.wur.nl/en/research-results/research-institutes/plant-research/greenhouse-horticulture/show-greenhouse/autonomous-greenhouse-challenge-4th-edition.htm
+  - Q&A
+    - どのような国内外のパートナーや顧客と仕事をしていますか？
+    - With which national and international partners and clients do you work?
+    - 施設園芸分野での直近の研究プロジェクトや重点テーマは何でしょうか？
+    - What are the most recent research projects or priority themes in the field of institutional horticulture?
+    - 研究開発の観点で、気になる日本の企業や研究機関などございますか？またその理由はなんでしょうか。
+    - In terms of research and development, are there any Japanese companies or research institutions you are interested in? If so, what are they and why?
 
 - キッコーマン
   - https://diamond.jp/articles/-/177860
+  - Q&A
+    - 食や農業関連における貴社の直近の研究プロジェクトや重点テーマは何でしょうか？
+    - What are your company's most recent research projects or focus areas in food and agriculture?
+    - ワーゲニンゲン大学とはどのような形で（例えば、チーム、期間、費用、テーマ設定）共同研究をなされるのでしょうか？
+    - How will you collaborate with Wageningen University (e.g. teams, duration, costs, thematisation)?
+    - 日本における産学連携とはどのような違いがありますか？
+    - How does this differ from industry-academia collaboration in Japan?
+    - 進出している他の企業（日本に限らず、世界的に）とのつながりもありますか？
+    - Do you have connections with other companies (not only in Japan, but also globally) that have established operations?
 
 - GreenPort Venlo
   - https://www.greenportvenlo.nl/
