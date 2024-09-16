@@ -1,18 +1,24 @@
+
 {
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        },
-    },
-    "isort.args":["--profile", "black"],
-    "flake8.args": [
-        "--max-line-length=100",
-        "--max-complexity=10",
-    ],
-    "mypy-type-checker.args": [
-        "--disallow-untyped-defs"
-    ],
-    "autoDocstring.docstringFormat": "numpy"
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.organizeImports": "explicit"
+  },
+  "ruff.format.args": [],
+  "ruff.lint.select": [
+    "I",
+    "Q",
+    "E225"
+  ],
+  "ruff.organizeImports": true,
+  // "autoDocstring.docstringFormat": "google-notypes",
+  // "autoDocstring.generateDocstringOnEnter": true,
+  "git.ignoreLimitWarning": true,
 }
