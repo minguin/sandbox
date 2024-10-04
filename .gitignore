@@ -1,0 +1,7 @@
+.env
+.venv
+notebook/lib/bindings/utils.js
+notebook/lib/tom-select/tom-select.complete.min.js
+notebook/lib/tom-select/tom-select.css
+notebook/lib/vis-9.1.2/vis-network.css
+notebook/lib/vis-9.1.2/vis-network.min.js

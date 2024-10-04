@@ -7,7 +7,7 @@
       "source.organizeImports": "explicit"
     }
   },
-  "notebook.formatOnSave.enabled": true,
+  // "notebook.formatOnSave.enabled": true,
   "notebook.codeActionsOnSave": {
     "notebook.source.organizeImports": "explicit"
   },

@@ -11,10 +11,10 @@ from datetime import datetime
 
 import arxiv
 import numpy as np
-import openai
 import pandas as pd
 import requests
 from dotenv import load_dotenv
+from openai import OpenAI
 from scipy.stats import rankdata
 
 import streamlit as st
@@ -26,7 +26,12 @@ load_dotenv()
 now = datetime.now()
 
 # OpenAI Settings
-openai.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(
+    api_key=os.environ["OPENAI_API_KEY"],  # this is also the default, it can be omitted
+)
+
+# arxiv Settings
+arxiv_client = arxiv.Client()
 
 OPENAI_PROMPT = """Please summarize the main points of the given paper in three points and output them in Japanese in the following format. ```
 Title in Japanese
@@ -182,7 +187,7 @@ def main():
         payload["properties"]["arXiv query"]["rich_text"][0]["text"][
             "content"
         ] = arXiv_query
-        ARXIV_NUM_PAPERS = st.number_input("arXivで検索する論文数を入力", value=500)
+        ARXIV_NUM_PAPERS = st.number_input("arXivで検索する論文数を入力", value=100)
 
         st.code(
             """
@@ -240,10 +245,10 @@ def main():
         # searchの結果をリストに格納
         results = []
         arxiv_list = []
-        for result in search.results():
+        for result in arxiv_client.results(search):
             results.append(result)
             arxiv_list.append("ARXIV:" + result.entry_id.split("/")[-1].split("v")[0])
-
+        st.write(arxiv_list)
         # to Semantic Scholar Academic Graph API
         try:
             response_semanticscholar = requests.post(
@@ -254,6 +259,7 @@ def main():
                 json={"ids": arxiv_list},
             )
             response_semanticscholar = response_semanticscholar.json()
+            st.write(response_semanticscholar)
         except Exception as e:
             st.write(e)
 
@@ -267,12 +273,16 @@ def main():
                 },
             )
             get_semanticscholar = get_semanticscholar.json()["data"]
-            response_semanticscholar.extend(get_semanticscholar)
+            st.write(get_semanticscholar)
+            try:
+                response_semanticscholar.extend(get_semanticscholar)
+            except:
+                response_semanticscholar = get_semanticscholar
         except Exception as e:
             st.write(e)
-
+        st.write(response_semanticscholar)
         response_semanticscholar = list(
-            {d["paperId"]: d for d in response_semanticscholar}.values()
+            {d["paperId"]: d for d in response_semanticscholar if d}.values()
         )
 
         # 並び替え
@@ -305,15 +315,15 @@ def main():
             # TODO:1回試行なので改良の余地あり、エラー処理
             try:
                 text = f"Title: {result['title']}\n Abstract: {result['abstract']}"
-                response_chatgpt = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo",
+                response_chatgpt = client.chat.completions.create(
+                    model="gpt-3.5-turbo-1106",
                     messages=[
                         {"role": "system", "content": OPENAI_PROMPT},
                         {"role": "user", "content": text},
                     ],
                     temperature=0,
                 )
-                summary = response_chatgpt["choices"][0]["message"]["content"]
+                summary = response_chatgpt.choices[0].message.content
             except Exception as e:
                 st.write(e)
 
